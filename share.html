@@ -1,0 +1,2148 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://taphoammo.net/post/list.html -->
+<html lang="en" dir="ltr" xmlns:with="http://www.thymeleaf.org/extras/with"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Required meta tags -->
+	
+	<meta name="_csrf" content="3b3f33e2-80ea-492c-bf7b-e806782e0af3">
+	<!-- default header name is X-CSRF-TOKEN -->
+	<meta name="_csrf_header" content="X-CSRF-TOKEN">
+	
+		<title>Tạp hóa MMO | Chia sẻ kinh nghiệm MMO</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<meta property="og:title" content="Tạp hóa MMO | Chia sẻ kinh nghiệm MMO">
+		<meta property="og:description" content="Tạp hóa MMO - Chia sẻ kinh nghiệm mmo - kinh nghiệm kiếm tiền online">
+		<meta name="description" content="Tạp hóa MMO - Chia sẻ kinh nghiệm mmo - kinh nghiệm kiếm tiền online">
+		
+		
+		<meta property="og:url" content="https://taphoammo.net/post/list.html">
+		<meta property="og:image" content="https://taphoammo.net/images/logo/tap-hoa-mmo.png">
+		
+		
+		
+		
+		
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/png" href="https://taphoammo.net/images/logo/logo.jpg">
+	<link rel="icon" href="https://taphoammo.net/images/icon/favicon.ico" type="image/ico">
+	<!-- fonts -->
+	<link rel="stylesheet" href="./css/css">
+	<!-- css -->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./css/photoswipe.css">
+	<link rel="stylesheet" href="./css/default-skin.css">
+	<link rel="stylesheet" href="./css/select2.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- font - fontawesome -->
+	<link rel="stylesheet" href="./css/all.min.css">
+	<!-- font - stroyka -->
+	<link rel="stylesheet" href="./css/stroyka.css">
+	<link rel="stylesheet" href="./css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="./css/sweetalert.css">
+	<link rel="stylesheet" href="./css/toastr.min.css">
+	<link rel="stylesheet" href="./css/default.min.css">
+	<script src="./js/sceditor.min.js."></script>
+	
+	<link href="./js/datepicker.css" rel="stylesheet" type="text/css">
+	<script src="./js/jquery-3.5.1.js."></script>
+	<script src="./js/moment.min.js."></script>
+
+	
+<!--	<script th:src='|https://www.google.com/recaptcha/api.js?render=${@captchaService.getReCaptchaSite()}'></script>-->
+	
+	<style>
+		.container_fix {
+			width: 100%;
+			padding-right: 15px;
+			padding-left: 20px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		@media (max-width: 768px){
+			.container_fix{
+			    padding-right: 0px;
+				padding-left: 15px;
+			}
+		}
+		.holder {
+			z-index: 1000;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			bottom: 0px;
+			right: 0px;
+			width: 100%;
+			height: 100%;
+			background-color: transparent;
+		}
+
+		.preloader {
+			/* size */
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			animation: rotatePreloader 2s infinite ease-in;
+		}
+
+		@keyframes rotatePreloader {
+			0% {
+				transform: translateX(-50%) translateY(-50%) rotateZ(0deg);
+			}
+			100% {
+				transform: translateX(-50%) translateY(-50%) rotateZ(-360deg);
+			}
+		}
+		.preloader div {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+		}
+
+		.preloader div:before {
+			content: "";
+			position: absolute;
+			left: 50%;
+			top: 0%;
+			width: 10%;
+			height: 10%;
+			background-color: #21be73;
+			transform: translateX(-50%);
+			border-radius: 50%;
+		}
+
+		.preloader div:nth-child(1) {
+			transform: rotateZ(0deg);
+			animation: rotateCircle1 2s infinite linear;
+			z-index: 9;
+		}
+
+		@keyframes rotateCircle1 {
+			0% {
+				opacity: 0;
+			}
+			0% {
+				opacity: 1;
+				transform: rotateZ(36deg);
+			}
+			7% {
+				transform: rotateZ(0deg);
+			}
+			57% {
+				transform: rotateZ(0deg);
+			}
+			100% {
+				transform: rotateZ(-324deg);
+				opacity: 1;
+			}
+		}
+		.preloader div:nth-child(2) {
+			transform: rotateZ(36deg);
+			animation: rotateCircle2 2s infinite linear;
+			z-index: 8;
+		}
+
+		@keyframes rotateCircle2 {
+			5% {
+				opacity: 0;
+			}
+			5.0001% {
+				opacity: 1;
+				transform: rotateZ(0deg);
+			}
+			12% {
+				transform: rotateZ(-36deg);
+			}
+			62% {
+				transform: rotateZ(-36deg);
+			}
+			100% {
+				transform: rotateZ(-324deg);
+				opacity: 1;
+			}
+		}
+		.preloader div:nth-child(3) {
+			transform: rotateZ(72deg);
+			animation: rotateCircle3 2s infinite linear;
+			z-index: 7;
+		}
+
+		@keyframes rotateCircle3 {
+			10% {
+				opacity: 0;
+			}
+			10.0002% {
+				opacity: 1;
+				transform: rotateZ(-36deg);
+			}
+			17% {
+				transform: rotateZ(-72deg);
+			}
+			67% {
+				transform: rotateZ(-72deg);
+			}
+			100% {
+				transform: rotateZ(-324deg);
+				opacity: 1;
+			}
+		}
+		.preloader div:nth-child(4) {
+			transform: rotateZ(108deg);
+			animation: rotateCircle4 2s infinite linear;
+			z-index: 6;
+		}
+
+		@keyframes rotateCircle4 {
+			15% {
+				opacity: 0;
+			}
+			15.0003% {
+				opacity: 1;
+				transform: rotateZ(-72deg);
+			}
+			22% {
+				transform: rotateZ(-108deg);
+			}
+			72% {
+				transform: rotateZ(-108deg);
+			}
+			100% {
+				transform: rotateZ(-324deg);
+				opacity: 1;
+			}
+		}
+		.preloader div:nth-child(5) {
+			transform: rotateZ(144deg);
+			animation: rotateCircle5 2s infinite linear;
+			z-index: 5;
+		}
+
+		@keyframes rotateCircle5 {
+			20% {
+				opacity: 0;
+			}
+			20.0004% {
+				opacity: 1;
+				transform: rotateZ(-108deg);
+			}
+			27% {
+				transform: rotateZ(-144deg);
+			}
+			77% {
+				transform: rotateZ(-144deg);
+			}
+			100% {
+				transform: rotateZ(-324deg);
+				opacity: 1;
+			}
+		}
+		.preloader div:nth-child(6) {
+			transform: rotateZ(180deg);
+			animation: rotateCircle6 2s infinite linear;
+			z-index: 4;
+		}
+
+		@keyframes rotateCircle6 {
+			25% {
+				opacity: 0;
+			}
+			25.0005% {
+				opacity: 1;
+				transform: rotateZ(-144deg);
+			}
+			32% {
+				transform: rotateZ(-180deg);
+			}
+			82% {
+				transform: rotateZ(-180deg);
+			}
+			100% {
+				transform: rotateZ(-324deg);
+				opacity: 1;
+			}
+		}
+		.preloader div:nth-child(7) {
+			transform: rotateZ(216deg);
+			animation: rotateCircle7 2s infinite linear;
+			z-index: 3;
+		}
+
+		@keyframes rotateCircle7 {
+			30% {
+				opacity: 0;
+			}
+			30.0006% {
+				opacity: 1;
+				transform: rotateZ(-180deg);
+			}
+			37% {
+				transform: rotateZ(-216deg);
+			}
+			87% {
+				transform: rotateZ(-216deg);
+			}
+			100% {
+				transform: rotateZ(-324deg);
+				opacity: 1;
+			}
+		}
+		.preloader div:nth-child(8) {
+			transform: rotateZ(252deg);
+			animation: rotateCircle8 2s infinite linear;
+			z-index: 2;
+		}
+
+		@keyframes rotateCircle8 {
+			35% {
+				opacity: 0;
+			}
+			35.0007% {
+				opacity: 1;
+				transform: rotateZ(-216deg);
+			}
+			42% {
+				transform: rotateZ(-252deg);
+			}
+			92% {
+				transform: rotateZ(-252deg);
+			}
+			100% {
+				transform: rotateZ(-324deg);
+				opacity: 1;
+			}
+		}
+		.preloader div:nth-child(9) {
+			transform: rotateZ(288deg);
+			animation: rotateCircle9 2s infinite linear;
+			z-index: 1;
+		}
+
+		@keyframes rotateCircle9 {
+			40% {
+				opacity: 0;
+			}
+			40.0008% {
+				opacity: 1;
+				transform: rotateZ(-252deg);
+			}
+			47% {
+				transform: rotateZ(-288deg);
+			}
+			97% {
+				transform: rotateZ(-288deg);
+			}
+			100% {
+				transform: rotateZ(-324deg);
+				opacity: 1;
+			}
+		}
+		.preloader div:nth-child(10) {
+			transform: rotateZ(324deg);
+			animation: rotateCircle10 2s infinite linear;
+			z-index: 0;
+		}
+
+		@keyframes rotateCircle10 {
+			45% {
+				opacity: 0;
+			}
+			45.0009% {
+				opacity: 1;
+				transform: rotateZ(-288deg);
+			}
+			52% {
+				transform: rotateZ(-324deg);
+			}
+			102% {
+				transform: rotateZ(-324deg);
+			}
+			100% {
+				transform: rotateZ(-324deg);
+				opacity: 1;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="site">
+		<!-- mobile site__header -->
+<header class="site__header d-lg-none">
+    <!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
+    <div class="mobile-header mobile-header--sticky" data-sticky-mode="pullToShow">
+        <div class="mobile-header__panel" style="background:#21bf73">
+            <div class="container_fix">
+                <div class="mobile-header__body">
+                    <button class="mobile-header__menu-button">
+                        <svg width="18px" height="14px">
+                            <use xlink:href="/images/svg/sprite.svg#menu-18x14"></use>
+                            </svg><span id="noffall_2" class="indicator__value">0</span>
+                        
+                    </button>
+                    <a class="mobile-header__logo" href="https://taphoammo.net/">
+                        <img src="./images/logo1.png" alt="Logo" height="45">
+                    </a>
+
+                    <div class="mobile-header__indicators">
+                        
+                            <div class="indicator indicator--mobile-search indicator--mobile d-md">
+                                <a class="indicator__button" href="https://taphoammo.net/login.html">
+									<span class="indicator__area">
+										<svg width="20px" height="20px">
+											<use xlink:href="/images/svg/sprite.svg#person-20"></use>
+										</svg>
+									</span>
+                                </a>
+                            </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-header__topbar" style="background-color:white;border: none;">
+                <div class="topbar__container container_fix">
+                    <div class="topbar__row">
+                        <marquee style="color: #ff2626;">Tạp Hóa MMO - Sàn thương mại điện tử sản phẩm số phục vụ Kiếm tiền online. Mọi giao dịch trên trang đều hoàn toàn tự động và được giữ tiền 3 ngày, thay thế cho hình thức trung gian, các bạn yên tâm giao dịch nhé. (2) Cảnh báo gian hàng không uy tín: Nếu chủ shop bán cho bạn sản phẩm không đúng định dạng: tài-khoản|mật-khẩu..., mà là 1 chuỗi không liên quan ở đầu, có nghĩa là hàng đó đang cố pass hệ thống check trùng của sàn, hãy nhanh chóng khiếu nại đơn hàng và báo cho bên mình nhé, vì sản phẩm bạn mua có thể đã từng bán cho người khác trên sàn.</marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- mobile site__header / end -->
+
+<!-- desktop site__header -->
+<header class="site__header d-lg-block d-none">
+    <div class="site-header">
+        <!-- .topbar -->
+        <div class="site-header__topbar topbar" style="background-color:white;">
+            <div class="topbar__container container_fix">
+                <div class="topbar__row">
+                    <div class="topbar__item topbar__item--link">
+                        <div class="topbar__item topbar__item--link">
+                            <a class="topbar-link">Hỗ trợ trực tuyến:</a>
+                        </div>
+                        <div class="topbar__item topbar__item--link">
+                            <a target="_blank" href="https://fb.com/taphoammo" class="topbar-link" style="color: #21bf73;">
+                                <i class="footer-contacts__icon fab fa-facebook"></i>Tạp hóa MMO
+                            </a>
+                        </div>
+                        <div class="topbar__item topbar__item--link">
+                            <a class="topbar-link">
+                                <i class="footer-contacts__icon far fa-envelope"></i>support@taphoammo.net
+                            </a>
+                        </div>
+                        <div class="topbar__item topbar__item--link">
+                            <a class="topbar-link"> <i class="footer-contacts__icon far fa-clock"></i>08:00am - 10:00pm</a>
+                        </div>
+                    </div>
+
+                    <div class="topbar__spring"></div>
+                    <div class="topbar__item">
+                        <div class="topbar-dropdown">
+                            <button class="topbar-dropdown__btn" type="button">
+                                <a style="color: #ff2626;" href="https://taphoammo.net/register.html">Đăng ký bán hàng</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="topbar__item">
+                        <div class="topbar-dropdown">
+                            <button class="topbar-dropdown__btn" type="button">
+                                <span>Ngôn ngữ:</span>
+                                <span class="topbar__item-value text-uppercase">vi</span>
+                                <svg width="7px" height="5px">
+                                    <use xlink:href="/images/svg/sprite.svg#arrow-rounded-down-7x5"></use>
+                                </svg>
+                            </button>
+                            <div class="topbar-dropdown__body">
+                                <div class="menu menu--layout--topbar  menu--with-icons ">
+                                    <div class="menu__submenus-container"></div>
+                                    <ul class="menu__list">
+                                        <li class="menu__item">
+                                            <div class="menu__item-submenu-offset"></div>
+                                            <a class="menu__item-link" href="https://taphoammo.net/post/list.html?lang=en">
+                                                <div class="menu__item-icon"><img src="./images/en.png" alt=""></div>
+                                                English
+                                            </a>
+                                        </li>
+                                        <li class="menu__item">
+                                            <div class="menu__item-submenu-offset"></div>
+                                            <a class="menu__item-link" href="https://taphoammo.net/post/list.html?lang=vi">
+                                                <div class="menu__item-icon"><img src="./images/vn.png" alt=""></div>
+                                                Tiếng Việt
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .topbar / end -->
+
+        <div class="site-header__nav-panel">
+            <div class="nav-panel nav-panel--sticky" data-sticky-mode="pullToShow" style="background:#21bf73;">
+                <div class="nav-panel__container container_fix">
+                    <div class="nav-panel__row">
+                        <div class="nav-panel__logo">
+                            <a href="https://taphoammo.net/">
+                                <img src="./images/logo1.png" alt="Logo" height="45">
+                            </a>
+                        </div>
+                        <!-- .nav-links -->
+                        <div class="nav-panel__nav-links nav-links">
+                            <ul class="nav-links__list">
+
+                                <li class="nav-links__item  nav-links__item--has-submenu ">
+                                    <a class="nav-links__item-link">
+                                        <div style="cursor: pointer;" class="nav-links__item-body">
+                                            <div>Sản phẩm</div>
+                                            <svg class="nav-links__item-arrow" width="9px" height="6px">
+                                                <use xlink:href="/images/svg/sprite.svg#arrow-rounded-down-9x6"></use>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="nav-links__submenu nav-links__submenu--type--megamenu nav-links__submenu--size--x1">
+                                        <!-- .megamenu -->
+                                        <div class="megamenu ">
+                                            <div class="megamenu__body">
+                                                <div class="row">
+                                                    
+                                                        <div class="col-6">
+                                                            <ul class="megamenu__links megamenu__links--level--0">
+                                                                <li class="megamenu__item  megamenu__item--with-submenu">
+                                                                    <a href="https://taphoammo.net/danh-muc/email">Email</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    
+                                                        <div class="col-6">
+                                                            <ul class="megamenu__links megamenu__links--level--0">
+                                                                <li class="megamenu__item  megamenu__item--with-submenu">
+                                                                    <a href="https://taphoammo.net/danh-muc/phan-mem">Phần mềm</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    
+                                                        <div class="col-6">
+                                                            <ul class="megamenu__links megamenu__links--level--0">
+                                                                <li class="megamenu__item  megamenu__item--with-submenu">
+                                                                    <a href="https://taphoammo.net/danh-muc/tai-khoan">Tài khoản</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    
+                                                        <div class="col-6">
+                                                            <ul class="megamenu__links megamenu__links--level--0">
+                                                                <li class="megamenu__item  megamenu__item--with-submenu">
+                                                                    <a href="https://taphoammo.net/danh-muc/danh-muc-khac">Khác</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- .megamenu / end -->
+                                    </div>
+                                </li>
+                                <li class="nav-links__item nav-links__item--has-submenu">
+                                    <a class="nav-links__item-link">
+                                        <div style="cursor: pointer;" class="nav-links__item-body">
+                                            <div>Dịch vụ</div>
+                                            <svg class="nav-links__item-arrow" width="9px" height="6px">
+                                                <use xlink:href="/images/svg/sprite.svg#arrow-rounded-down-9x6"></use>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="nav-links__submenu nav-links__submenu--type--megamenu nav-links__submenu--size--x1" style="left: 372px;">
+                                        <!-- .megamenu -->
+                                        <div class="megamenu ">
+                                            <div class="megamenu__body">
+                                                <div class="row">
+                                                    
+                                                        <div class="col-6">
+                                                            <ul class="megamenu__links megamenu__links--level--0">
+                                                                <li class="megamenu__item  megamenu__item--with-submenu">
+                                                                    <a href="https://taphoammo.net/danh-muc/dich-vu-tuong-tac">Tăng tương tác</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    
+                                                        <div class="col-6">
+                                                            <ul class="megamenu__links megamenu__links--level--0">
+                                                                <li class="megamenu__item  megamenu__item--with-submenu">
+                                                                    <a href="https://taphoammo.net/danh-muc/dich-vu-phan-mem">Dịch vụ phần mềm</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    
+                                                        <div class="col-6">
+                                                            <ul class="megamenu__links megamenu__links--level--0">
+                                                                <li class="megamenu__item  megamenu__item--with-submenu">
+                                                                    <a href="https://taphoammo.net/danh-muc/dich-vu-blockchain">Blockchain</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    
+                                                        <div class="col-6">
+                                                            <ul class="megamenu__links megamenu__links--level--0">
+                                                                <li class="megamenu__item  megamenu__item--with-submenu">
+                                                                    <a href="https://taphoammo.net/danh-muc/dich-vu-khac">Dịch vụ khác</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- .megamenu / end -->
+                                    </div>
+                                </li>
+                                <li class="nav-links__item">
+                                    <a class="nav-links__item-link" href="https://taphoammo.net/support.html">
+                                        <div class="nav-links__item-body">Hỗ trợ</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links__item">
+                                    <a style="position: relative;" class="nav-links__item-link" href="https://taphoammo.net/post/list.html">
+                                        <div class="nav-links__item-body">Chia sẻ</div>
+                                        <span id="post_new" style="top:5px; right: 3px; padding-top: 3px; position: absolute;"></span>
+                                    </a>
+                                </li>
+
+<!--                                <li class="nav-links__item nav-links__item&#45;&#45;has-submenu">-->
+<!--                                    -->
+<!--                                    <div class="nav-links__submenu nav-links__submenu&#45;&#45;type&#45;&#45;menu">-->
+<!--                                        &lt;!&ndash; .menu &ndash;&gt;-->
+<!--                                        <div class="menu menu&#45;&#45;layout&#45;&#45;classic">-->
+<!--                                            <div class="menu__submenus-container"></div>-->
+<!--                                            <ul class="menu__list">-->
+<!--                                                <li class="menu__item">-->
+<!--                                                    &lt;!&ndash; This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. &ndash;&gt;-->
+<!--                                                    <div class="menu__item-submenu-offset"></div>-->
+<!--                                                    <a class="menu__item-link" th:href="@{/post/list.html}"-->
+<!--                                                       th:text="#{menu.post.list}"></a>-->
+<!--                                                </li>-->
+<!--                                                <li class="menu__item">-->
+<!--                                                    &lt;!&ndash; This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. &ndash;&gt;-->
+<!--                                                    <div class="menu__item-submenu-offset"></div>-->
+<!--                                                    <a class="menu__item-link" th:href="@{/post/post-add.html}"-->
+<!--                                                       th:text="#{menu.post.create}"></a>-->
+<!--                                                </li>-->
+<!--                                            </ul>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; .menu / end &ndash;&gt;-->
+<!--                                    </div>-->
+<!--                                </li>-->
+                                <li class="nav-links__item  nav-links__item--has-submenu ">
+                                    <a class="nav-links__item-link">
+                                        <div style="cursor: pointer;" class="nav-links__item-body">
+                                            <div>Công cụ</div>
+                                            <svg class="nav-links__item-arrow" width="9px" height="6px">
+                                                <use xlink:href="/images/svg/sprite.svg#arrow-rounded-down-9x6"></use>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="nav-links__submenu nav-links__submenu--type--megamenu nav-links__submenu--size--x1">
+                                        <!-- .megamenu -->
+                                        <div class="megamenu ">
+                                            <div class="megamenu__body">
+                                                <div class="row">
+                                                    <ul class="megamenu__links megamenu__links--level--0">
+                                                        <li class="megamenu__item  megamenu__item--with-submenu">
+                                                            <a class="nav-links__item-link" href="https://taphoammo.net/2FA.html">
+                                                                <div class="nav-links__item-body">2FA</div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="megamenu__links megamenu__links--level--0">
+                                                        <li class="megamenu__item  megamenu__item--with-submenu">
+                                                            <a class="nav-links__item-link" href="https://taphoammo.net/check-live-facebook.html">
+                                                                <div class="nav-links__item-body">Check Live FB</div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- .megamenu / end -->
+                                    </div>
+                                </li>
+                                <li class="nav-links__item">
+                                    <a class="nav-links__item-link" href="https://taphoammo.net/FAQs.html">
+                                        <div class="nav-links__item-body">FAQs</div>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <!-- .nav-links / end -->
+                        <div class="nav-panel__indicators">
+                            
+
+                            
+
+                            <div class="indicator indicator--trigger--click">
+                                <a class="indicator__button">
+									<span class="indicator__area">
+										<svg width="20px" height="20px">
+											<use xlink:href="/images/svg/sprite.svg#person-20"></use>
+											</svg><span id="noffall_1" class="indicator__value">0</span>
+										
+									</span>
+                                </a>
+                                <div class="indicator__dropdown">
+                                    <div class="account-menu">
+                                        
+                                            <form class="account-menu__form" id="formSignin" action="https://taphoammo.net/login-validator" method="post"><input type="hidden" name="_csrf" value="3b3f33e2-80ea-492c-bf7b-e806782e0af3">
+                                                <div class="account-menu__form-title">Đăng nhập</div>
+                                                <div class="form-group">
+                                                    <input id="username" name="email" type="text" class="form-control form-control-sm text-lowercase" placeholder="Email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="account-menu__form-forgot">
+                                                        <input id="password" name="password" type="password" class="form-control form-control-sm" placeholder="Mật khẩu">
+                                                        <a href="https://taphoammo.net/forgetPassword.html" class="account-menu__form-forgot-link">Quên mật khẩu</a>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input id="rem_header" type="checkbox" checked="" name="remember-me">
+                                                    <label for="rem_header">Ghi nhớ đăng nhập</label>
+                                                </div>
+                                                <input type="hidden" id="response3" name="response2" value="">
+                                                <div style="margin-top: 0px;" class="form-group account-menu__form-button">
+                                                    <button onclick="beforeLogin2();" type="button" class="btn btn-primary btn-sm">Đăng nhập</button>
+                                                </div>
+                                                <div style="margin-top: 0px;" class="form-group account-menu__form-button">
+                                                    <div style="width: 100%; padding-left: 40px;" class="row">
+                                                        <div style="padding: 1px; border: 1px solid #4285f4; text-align: center;" class="col-2">
+                                                            <img width="15px" style="margin-top:5px; margin-right:8px" alt="Google sign-in" src="./images/512px-Google__G__Logo.svg.png">
+                                                        </div>
+                                                        <div style="padding: 0px; text-align: left;" class="col-10">
+                                                            <a class="btn btn-sm darken-4 white" href="https://taphoammo.net/login-with-google" style="font-size: 13px;text-transform:none;background-color: #4285f4; color: white;">
+                                                                Google Login
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="account-menu__form-link"><a href="https://taphoammo.net/login.html">Đăng ký</a>
+                                                </div>
+
+                                            </form>
+
+                                        
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-header__topbar" style="background-color:white;border: none;">
+                <div class="topbar__container container_fix">
+                    <div class="topbar__row">
+                        <marquee style="color: #ff2626;">Tạp Hóa MMO - Sàn thương mại điện tử sản phẩm số phục vụ Kiếm tiền online. Mọi giao dịch trên trang đều hoàn toàn tự động và được giữ tiền 3 ngày, thay thế cho hình thức trung gian, các bạn yên tâm giao dịch nhé. (2) Cảnh báo gian hàng không uy tín: Nếu chủ shop bán cho bạn sản phẩm không đúng định dạng: tài-khoản|mật-khẩu..., mà là 1 chuỗi không liên quan ở đầu, có nghĩa là hàng đó đang cố pass hệ thống check trùng của sàn, hãy nhanh chóng khiếu nại đơn hàng và báo cho bên mình nhé, vì sản phẩm bạn mua có thể đã từng bán cho người khác trên sàn.</marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function beforeLogin2() {
+            $('#formSignin').submit();
+            
+            // if (typeof grecaptcha !== 'undefined') {
+            //     var siteKey = "6LdlMFIcAAAAALDBHMRWYQXmpfU34Kgz11OmxTku";
+            //     grecaptcha.execute(siteKey, {action: "register"}).then(function (response) {
+            //         $('#response3').val(response);
+            //         $('#formSignin').submit();
+            //     });
+            // }
+        }
+    </script>
+    
+    <script>
+        var time = new Date().getTime();
+        $(document.body).bind("mousemove keypress", function (e) {
+            time = new Date().getTime();
+        });
+
+        function refresh() {
+            if (new Date().getTime() - time >= 300000) {
+                time = new Date().getTime();
+                window.location.reload(true);
+            }
+
+        }
+
+        setInterval(function () {
+            refresh();
+        }, 60000);
+    </script>
+</header>
+<!-- desktop site__header / end -->
+
+		<div class="site__body">
+			<div class="holder" style="display: none;"><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+			</div>
+			
+    <style>
+        .stats-item{cursor:default;margin-right:10px}
+    </style>
+    <script src="./Tạp hóa MMO _ Chia sẻ kinh nghiệm MMO_files/jquery.min.js."></script>
+    <div class="site__body" style="padding-top: 2em;">
+
+        <div class="container">
+        	<div style="padding-bottom: 20px; padding-left: 20px;">
+            <h1>Kinh nghiệm MMO</h1>
+            <p>Nơi chia sẻ kiến thức, kinh nghiệm, và trải nghiệm về kiếm tiền online.</p>
+            </div>
+            <div class="row">
+            	<div class="col-12 col-lg-4">
+                    <div class="block block-sidebar block-sidebar--position--end">
+
+
+                        <div class="block-sidebar__item">
+                            <div class="widget-search">
+                                <input class="widget-search__input" id="search" placeholder="Tìm bài viết..." type="text" autocomplete="off" spellcheck="false">
+                                <button class="widget-search__button" type="submit" onclick="search()" id="btnSearch" style="margin-right: 20px;">
+                                    <svg width="20px" height="20px">
+                                        <use xlink:href="/images/svg/sprite.svg#search-20"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="block-sidebar__item">
+                           <a href="https://taphoammo.net/post/my-post.html"> <button class="btn btn-secondary" style="width: 100%; text-align: left;">Quản lý bài viết</button></a>
+                        </div>
+                        <div class="block-sidebar__item">
+                            <div class="widget-categories widget-categories--location--blog widget">
+                                <h4 class="widget__title">Thể loại</h4>
+                                <ul class="widget-categories__list" data-collapse="" data-collapse-opened-class="widget-categories__item--open">
+                                    
+                                        <li class="widget-categories__item" data-collapse-item="">
+                                            <div class="widget-categories__row">
+                                                <a style="padding-left: 0px;" href="https://taphoammo.net/post/list.html/facebook">Facebook - (37)</a>
+                                            </div>
+                                        </li>
+                                    
+                                        <li class="widget-categories__item" data-collapse-item="">
+                                            <div class="widget-categories__row">
+                                                <a style="padding-left: 0px;" href="https://taphoammo.net/post/list.html/noi-dung-khac">Nội dung khác - (29)</a>
+                                            </div>
+                                        </li>
+                                    
+                                        <li class="widget-categories__item" data-collapse-item="">
+                                            <div class="widget-categories__row">
+                                                <a style="padding-left: 0px;" href="https://taphoammo.net/post/list.html/tiktok">Tiktok - (29)</a>
+                                            </div>
+                                        </li>
+                                    
+                                        <li class="widget-categories__item" data-collapse-item="">
+                                            <div class="widget-categories__row">
+                                                <a style="padding-left: 0px;" href="https://taphoammo.net/post/list.html/telegram">Telegram - (9)</a>
+                                            </div>
+                                        </li>
+                                    
+                                        <li class="widget-categories__item" data-collapse-item="">
+                                            <div class="widget-categories__row">
+                                                <a style="padding-left: 0px;" href="https://taphoammo.net/post/list.html/maketing">Marketing  - (7)</a>
+                                            </div>
+                                        </li>
+                                    
+                                        <li class="widget-categories__item" data-collapse-item="">
+                                            <div class="widget-categories__row">
+                                                <a style="padding-left: 0px;" href="https://taphoammo.net/post/list.html/taphoammo">TapHoaMMO - (5)</a>
+                                            </div>
+                                        </li>
+                                    
+                                        <li class="widget-categories__item" data-collapse-item="">
+                                            <div class="widget-categories__row">
+                                                <a style="padding-left: 0px;" href="https://taphoammo.net/post/list.html/youtube">Youtube - (2)</a>
+                                            </div>
+                                        </li>
+                                    
+                                        <li class="widget-categories__item" data-collapse-item="">
+                                            <div class="widget-categories__row">
+                                                <a style="padding-left: 0px;" href="https://taphoammo.net/post/list.html/zalo">Zalo - (1)</a>
+                                            </div>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="block-sidebar__item" style="display: none;">
+                            <div class="widget-posts widget">
+                                <h4 class="widget__title">Bài viết mới</h4>
+                                <div class="widget-posts__list">
+                                    
+                                        <div class="widget-posts__item">
+                                            <div class="widget-posts__image">
+                                                <a href="https://taphoammo.net/post/detail/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823">
+                                                    <img style="width: 90px;" src="./images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
+                                                </a>
+                                            </div>
+                                            <div class="widget-posts__info">
+                                                <div class="widget-posts__name">
+                                                    <a href="https://taphoammo.net/post/detail/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823">CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM</a>
+                                                </div>
+                                                <div class="widget-posts__date">
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/calum_f0sszu" target="_blank">calum_f0sszu</a>
+
+                                                        <p style="display: inline"> - 05-04-2024 20:04</p>
+                                                    </div>
+                                                    <div class="stats">
+                                                    <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                        1.5 K
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: ">
+                                                        <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                        4
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                        0
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="widget-posts__item">
+                                            <div class="widget-posts__image">
+                                                <a href="https://taphoammo.net/post/detail/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666">
+                                                    <img style="width: 90px;" src="./images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
+                                                </a>
+                                            </div>
+                                            <div class="widget-posts__info">
+                                                <div class="widget-posts__name">
+                                                    <a href="https://taphoammo.net/post/detail/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666">Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất</a>
+                                                </div>
+                                                <div class="widget-posts__date">
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/ngolinh1502" target="_blank">ngolinh1502</a>
+
+                                                        <p style="display: inline"> - 25-03-2024 11:31</p>
+                                                    </div>
+                                                    <div class="stats">
+                                                    <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                        884
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: ">
+                                                        <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                        0
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                        0
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="widget-posts__item">
+                                            <div class="widget-posts__image">
+                                                <a href="https://taphoammo.net/post/detail/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139">
+                                                    <img style="width: 90px;" src="./images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
+                                                </a>
+                                            </div>
+                                            <div class="widget-posts__info">
+                                                <div class="widget-posts__name">
+                                                    <a href="https://taphoammo.net/post/detail/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139">ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY</a>
+                                                </div>
+                                                <div class="widget-posts__date">
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/digiaic" target="_blank">digiaic</a>
+
+                                                        <p style="display: inline"> - 21-03-2024 16:30</p>
+                                                    </div>
+                                                    <div class="stats">
+                                                    <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                        2.8 K
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: ">
+                                                        <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                        1
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                        3
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="widget-posts__item">
+                                            <div class="widget-posts__image">
+                                                <a href="https://taphoammo.net/post/detail/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545">
+                                                    <img style="width: 90px;" src="./images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
+                                                </a>
+                                            </div>
+                                            <div class="widget-posts__info">
+                                                <div class="widget-posts__name">
+                                                    <a href="https://taphoammo.net/post/detail/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545">Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office</a>
+                                                </div>
+                                                <div class="widget-posts__date">
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/storekey247" target="_blank">storekey247</a>
+
+                                                        <p style="display: inline"> - 21-03-2024 09:40</p>
+                                                    </div>
+                                                    <div class="stats">
+                                                    <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                        729
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: ">
+                                                        <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                        0
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                        0
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="widget-posts__item">
+                                            <div class="widget-posts__image">
+                                                <a href="https://taphoammo.net/post/detail/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630">
+                                                    <img style="width: 90px;" src="./images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
+                                                </a>
+                                            </div>
+                                            <div class="widget-posts__info">
+                                                <div class="widget-posts__name">
+                                                    <a href="https://taphoammo.net/post/detail/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630">Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo</a>
+                                                </div>
+                                                <div class="widget-posts__date">
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/lvdshop" target="_blank">lvdshop</a>
+
+                                                        <p style="display: inline"> - 15-03-2024 18:04</p>
+                                                    </div>
+                                                    <div class="stats">
+                                                    <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                        1.8 K
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: ">
+                                                        <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                        2
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                        0
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="widget-posts__item">
+                                            <div class="widget-posts__image">
+                                                <a href="https://taphoammo.net/post/detail/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509">
+                                                    <img style="width: 90px;" src="./images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
+                                                </a>
+                                            </div>
+                                            <div class="widget-posts__info">
+                                                <div class="widget-posts__name">
+                                                    <a href="https://taphoammo.net/post/detail/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509">Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!</a>
+                                                </div>
+                                                <div class="widget-posts__date">
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/dauxanh88" target="_blank">dauxanh88</a>
+
+                                                        <p style="display: inline"> - 09-03-2024 13:11</p>
+                                                    </div>
+                                                    <div class="stats">
+                                                    <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                        1.5 K
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: ">
+                                                        <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                        0
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                        0
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="widget-posts__item">
+                                            <div class="widget-posts__image">
+                                                <a href="https://taphoammo.net/post/detail/kinh-nghiem-tiktok-beta-global_693559">
+                                                    <img style="width: 90px;" src="./images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
+                                                </a>
+                                            </div>
+                                            <div class="widget-posts__info">
+                                                <div class="widget-posts__name">
+                                                    <a href="https://taphoammo.net/post/detail/kinh-nghiem-tiktok-beta-global_693559">Kinh nghiệm Tiktok Beta Global</a>
+                                                </div>
+                                                <div class="widget-posts__date">
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/gianhangmmo" target="_blank">gianhangmmo</a>
+
+                                                        <p style="display: inline"> - 07-03-2024 13:34</p>
+                                                    </div>
+                                                    <div class="stats">
+                                                    <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                        4.5 K
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: ">
+                                                        <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                        3
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                        3
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="widget-posts__item">
+                                            <div class="widget-posts__image">
+                                                <a href="https://taphoammo.net/post/detail/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490">
+                                                    <img style="width: 90px;" src="./images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
+                                                </a>
+                                            </div>
+                                            <div class="widget-posts__info">
+                                                <div class="widget-posts__name">
+                                                    <a href="https://taphoammo.net/post/detail/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490">Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò</a>
+                                                </div>
+                                                <div class="widget-posts__date">
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/mmoteam1" target="_blank">mmoteam1</a>
+
+                                                        <p style="display: inline"> - 06-03-2024 20:46</p>
+                                                    </div>
+                                                    <div class="stats">
+                                                    <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                        2.9 K
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: ">
+                                                        <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                        2
+                                                    </span>
+                                                        <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: ">
+                                                      <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                        2
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="block">
+                        <div class="posts-view">
+                            <div class="posts-view__list posts-list posts-list--layout--grid2">
+                                <div class="posts-list__body">
+                                    
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--grid post-card--size--nl">
+                                                <div class="post-card__image">
+                                                    <a href="https://taphoammo.net/post/detail/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823">
+                                                        <img style="width: 100%;border: 2px solid #f0f0f0;" src="./images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
+                                                    </a>
+                                                </div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category">
+                                                        <a href="https://taphoammo.net/post/list.html/facebook">Facebook</a>
+                                                    </div>
+                                                    <div class="post-card__name">
+                                                        <a href="https://taphoammo.net/post/detail/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823">CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM</a>
+                                                    </div>
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/calum_f0sszu" target="_blank">calum_f0sszu</a>
+
+                                                        <p style="display: inline"> - 05-04-2024 20:04</p>
+                                                    </div>
+                                                    <div style="overflow: hidden;" class="post-card__content">Xin chào toàn thể anh chị em đang tham gia mua bán tại cái sạp Tạp Hoá MMO, Chúc toản thể ace kiếm thật nhiều tiền và may mắn khi tham gia website Tạp Hoá MMO. Mình xin cảm ơn ADMIN đã tạo ra 1 sàn gi...</div>
+                                                    <div class="post-card__read-more" style="display: block;">
+                                                        <div class="stats">
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: 4565">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                                    1.5 K
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: 21">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                                    4
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: 8">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                                    0
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--grid post-card--size--nl">
+                                                <div class="post-card__image">
+                                                    <a href="https://taphoammo.net/post/detail/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666">
+                                                        <img style="width: 100%;border: 2px solid #f0f0f0;" src="./images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
+                                                    </a>
+                                                </div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category">
+                                                        <a href="https://taphoammo.net/post/list.html/noi-dung-khac">Nội dung khác</a>
+                                                    </div>
+                                                    <div class="post-card__name">
+                                                        <a href="https://taphoammo.net/post/detail/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666">Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất</a>
+                                                    </div>
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/ngolinh1502" target="_blank">ngolinh1502</a>
+
+                                                        <p style="display: inline"> - 25-03-2024 11:31</p>
+                                                    </div>
+                                                    <div style="overflow: hidden;" class="post-card__content">Quản lý số lượng lớn tài khoản và ẩn danh trình duyệt là nhu cầu chung của anh em làm MMO. Dù đổi địa chỉ IP cho từng profile nhưng website vẫn có thể dễ dàng detect ra anh em dựa vào thông số browser...</div>
+                                                    <div class="post-card__read-more" style="display: block;">
+                                                        <div class="stats">
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: 4565">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                                    884
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: 21">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                                    0
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: 8">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                                    0
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--grid post-card--size--nl">
+                                                <div class="post-card__image">
+                                                    <a href="https://taphoammo.net/post/detail/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139">
+                                                        <img style="width: 100%;border: 2px solid #f0f0f0;" src="./images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
+                                                    </a>
+                                                </div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category">
+                                                        <a href="https://taphoammo.net/post/list.html/tiktok">Tiktok</a>
+                                                    </div>
+                                                    <div class="post-card__name">
+                                                        <a href="https://taphoammo.net/post/detail/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139">ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY</a>
+                                                    </div>
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/digiaic" target="_blank">digiaic</a>
+
+                                                        <p style="display: inline"> - 21-03-2024 16:30</p>
+                                                    </div>
+                                                    <div style="overflow: hidden;" class="post-card__content">1. Xác định chủ đề chính và bộ nhận diện cho kênh. Trước khi xây kênh bạn nên chọn cho kênh một chủ đề chính, xác định đối tượng mục tiêu mà kênh bạn hướng đến là ai ? Bạn sẽ nói điều gì với họ? Tone ...</div>
+                                                    <div class="post-card__read-more" style="display: block;">
+                                                        <div class="stats">
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: 4565">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                                    2.8 K
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: 21">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                                    1
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: 8">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                                    3
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--grid post-card--size--nl">
+                                                <div class="post-card__image">
+                                                    <a href="https://taphoammo.net/post/detail/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545">
+                                                        <img style="width: 100%;border: 2px solid #f0f0f0;" src="./images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
+                                                    </a>
+                                                </div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category">
+                                                        <a href="https://taphoammo.net/post/list.html/noi-dung-khac">Nội dung khác</a>
+                                                    </div>
+                                                    <div class="post-card__name">
+                                                        <a href="https://taphoammo.net/post/detail/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545">Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office</a>
+                                                    </div>
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/storekey247" target="_blank">storekey247</a>
+
+                                                        <p style="display: inline"> - 21-03-2024 09:40</p>
+                                                    </div>
+                                                    <div style="overflow: hidden;" class="post-card__content">Hướng dẫn SAO LƯU và KHÔI PHỤC bản quyền Windows / Office bằng phần mềm Dism++ Link tải : Google Drive Onedrive - Tải về file ở link trên và giải nén : - Windows 32bit thì hãy chạy file Dism ++ x86.ex...</div>
+                                                    <div class="post-card__read-more" style="display: block;">
+                                                        <div class="stats">
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: 4565">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                                    729
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: 21">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                                    0
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: 8">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                                    0
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--grid post-card--size--nl">
+                                                <div class="post-card__image">
+                                                    <a href="https://taphoammo.net/post/detail/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630">
+                                                        <img style="width: 100%;border: 2px solid #f0f0f0;" src="./images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
+                                                    </a>
+                                                </div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category">
+                                                        <a href="https://taphoammo.net/post/list.html/telegram">Telegram</a>
+                                                    </div>
+                                                    <div class="post-card__name">
+                                                        <a href="https://taphoammo.net/post/detail/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630">Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo</a>
+                                                    </div>
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/lvdshop" target="_blank">lvdshop</a>
+
+                                                        <p style="display: inline"> - 15-03-2024 18:04</p>
+                                                    </div>
+                                                    <div style="overflow: hidden;" class="post-card__content">hôm nay LVDShop xin hướng dẫn ae cách login telegram khi mua từ TapHoaMMo khi ae mua hàng về và giải nén như bình thường, sau đó copy phiên bản Telegram của ae thường login vào nhưng t...</div>
+                                                    <div class="post-card__read-more" style="display: block;">
+                                                        <div class="stats">
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: 4565">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                                    1.8 K
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: 21">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                                    2
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: 8">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                                    0
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--grid post-card--size--nl">
+                                                <div class="post-card__image">
+                                                    <a href="https://taphoammo.net/post/detail/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509">
+                                                        <img style="width: 100%;border: 2px solid #f0f0f0;" src="./images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
+                                                    </a>
+                                                </div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category">
+                                                        <a href="https://taphoammo.net/post/list.html/noi-dung-khac">Nội dung khác</a>
+                                                    </div>
+                                                    <div class="post-card__name">
+                                                        <a href="https://taphoammo.net/post/detail/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509">Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!</a>
+                                                    </div>
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/dauxanh88" target="_blank">dauxanh88</a>
+
+                                                        <p style="display: inline"> - 09-03-2024 13:11</p>
+                                                    </div>
+                                                    <div style="overflow: hidden;" class="post-card__content">Hướng dẫn lấy thông tin tài khoản sau khi mua Sau khi mua bạn sẽ được cung cấp 1 mã đơn hàng bạn ấn vào đó để kiểm tra đơn hàng : Thông tin chi tiết như sau : Về vấn đề Email của tài khoản : Nếu tài k...</div>
+                                                    <div class="post-card__read-more" style="display: block;">
+                                                        <div class="stats">
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: 4565">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                                    1.5 K
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: 21">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                                    0
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: 8">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                                    0
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--grid post-card--size--nl">
+                                                <div class="post-card__image">
+                                                    <a href="https://taphoammo.net/post/detail/kinh-nghiem-tiktok-beta-global_693559">
+                                                        <img style="width: 100%;border: 2px solid #f0f0f0;" src="./images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
+                                                    </a>
+                                                </div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category">
+                                                        <a href="https://taphoammo.net/post/list.html/tiktok">Tiktok</a>
+                                                    </div>
+                                                    <div class="post-card__name">
+                                                        <a href="https://taphoammo.net/post/detail/kinh-nghiem-tiktok-beta-global_693559">Kinh nghiệm Tiktok Beta Global</a>
+                                                    </div>
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/gianhangmmo" target="_blank">gianhangmmo</a>
+
+                                                        <p style="display: inline"> - 07-03-2024 13:34</p>
+                                                    </div>
+                                                    <div style="overflow: hidden;" class="post-card__content">Xin chào ACE cộng đồng em xin phép chia sẻ chút về kinh nghiệm Tiktok Beta : + Về tạo tài khoản: E ít xiền nên chỉ mua 1 con iphone 6 plus (1tr hơn chỗ ông anh) để tạo: - Đt k lắp Sim, chỉ bắt wifi bt...</div>
+                                                    <div class="post-card__read-more" style="display: block;">
+                                                        <div class="stats">
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: 4565">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                                    4.5 K
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: 21">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                                    3
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: 8">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                                    3
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--grid post-card--size--nl">
+                                                <div class="post-card__image">
+                                                    <a href="https://taphoammo.net/post/detail/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490">
+                                                        <img style="width: 100%;border: 2px solid #f0f0f0;" src="./images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
+                                                    </a>
+                                                </div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category">
+                                                        <a href="https://taphoammo.net/post/list.html/tiktok">Tiktok</a>
+                                                    </div>
+                                                    <div class="post-card__name">
+                                                        <a href="https://taphoammo.net/post/detail/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490">Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò</a>
+                                                    </div>
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/mmoteam1" target="_blank">mmoteam1</a>
+
+                                                        <p style="display: inline"> - 06-03-2024 20:46</p>
+                                                    </div>
+                                                    <div style="overflow: hidden;" class="post-card__content">Chia sẻ với mọi người 1 chút kinh nghiệm , trước đây mình cũng từng là newbie như bao anh em ngoài kia cũng tự mày mò mà ra , nên anh em cố lên nhé . Mọi cố gắng đều được đền đáp thôi &lt;3 Sau đây là cá...</div>
+                                                    <div class="post-card__read-more" style="display: block;">
+                                                        <div class="stats">
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: 4565">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                                    2.9 K
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: 21">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                                    2
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: 8">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                                    2
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--grid post-card--size--nl">
+                                                <div class="post-card__image">
+                                                    <a href="https://taphoammo.net/post/detail/huong-dan-login-cookie-tranh-checkpoint-99_119200">
+                                                        <img style="width: 100%;border: 2px solid #f0f0f0;" src="./images/huong-dan-login-cookie-tranh-checkpoint-99_119200.png" alt="Hướng dẫn login Cookie tránh checkpoint 99%">
+                                                    </a>
+                                                </div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category">
+                                                        <a href="https://taphoammo.net/post/list.html/facebook">Facebook</a>
+                                                    </div>
+                                                    <div class="post-card__name">
+                                                        <a href="https://taphoammo.net/post/detail/huong-dan-login-cookie-tranh-checkpoint-99_119200">Hướng dẫn login Cookie tránh checkpoint 99%</a>
+                                                    </div>
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/ScanGlobal" target="_blank">ScanGlobal</a>
+
+                                                        <p style="display: inline"> - 05-03-2024 13:35</p>
+                                                    </div>
+                                                    <div style="overflow: hidden;" class="post-card__content">Vào việc luôn tránh mất thời gian của anh em! Bước 1: Tải extension Get token cookie Bước 2: Tải extension User agent switcher and managerBước 3: nhập user agent gốc của cookie vào extesion bằng cách ...</div>
+                                                    <div class="post-card__read-more" style="display: block;">
+                                                        <div class="stats">
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: 4565">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                                    916
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: 21">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                                    0
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: 8">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                                    0
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--grid post-card--size--nl">
+                                                <div class="post-card__image">
+                                                    <a href="https://taphoammo.net/post/detail/len-tich-xanh-chinh-chu-off-lach-thue-duoi-18_152607">
+                                                        <img style="width: 100%;border: 2px solid #f0f0f0;" src="./images/len-tich-xanh-chinh-chu-off-lach-thue-duoi-18_152607.png" alt="Lên Tích Xanh Chính Chủ Off Lách Thuế + Dưới 18 ">
+                                                    </a>
+                                                </div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category">
+                                                        <a href="https://taphoammo.net/post/list.html/facebook">Facebook</a>
+                                                    </div>
+                                                    <div class="post-card__name">
+                                                        <a href="https://taphoammo.net/post/detail/len-tich-xanh-chinh-chu-off-lach-thue-duoi-18_152607">Lên Tích Xanh Chính Chủ Off Lách Thuế + Dưới 18 </a>
+                                                    </div>
+                                                    <div class="post-card__date">
+                                                        <a style="color: #21bf73;" href="https://taphoammo.net/thong-tin/hoanganhdoanh" target="_blank">hoanganhdoanh</a>
+
+                                                        <p style="display: inline"> - 04-03-2024 15:53</p>
+                                                    </div>
+                                                    <div style="overflow: hidden;" class="post-card__content">1. Tìm hiểu dấu tích xanh Facebook là gì? Tích xanh Facebook (hay còn được gọi là Verified Page/Profile) là dấu xác nhận của Facebook dành cho các tài khoản cá nhân hoặc Fanpage chính chủ, có sức ảnh ...</div>
+                                                    <div class="post-card__read-more" style="display: block;">
+                                                        <div class="stats">
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt xem: 4565">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-eye"></i>
+                                                                    3.6 K
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Lượt thích: 21">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-thumbs-up"></i>
+                                                                    0
+                                                                </span>
+                                                                <span class="stats-item text-muted" data-tippy="" data-original-title="Bình luận: 8">
+                                                                  <i aria-hidden="true" class="stats-item__icon fa fa-comments"></i>
+                                                                    0
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+
+                                </div>
+                            </div>
+                            <div class="posts-view__pagination">
+                                <!-- Paging-->
+                                <nav aria-label="Page navigation" class="paging">
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="https://taphoammo.net/post/list.html?pageNumber=0" tabindex="-1"><i class="fas fa-angle-double-left"></i> Prev.</a>
+                                        </li>
+                                        
+                                            <li class="page-item active">
+                                                <a class="page-link" href="https://taphoammo.net/post/list.html?pageNumber=1">1</a>
+                                            </li>
+                                            
+                                        
+                                            <li class="page-item">
+                                                <a class="page-link" href="https://taphoammo.net/post/list.html?pageNumber=2">2</a>
+                                            </li>
+                                            
+                                        
+                                            <li class="page-item">
+                                                <a class="page-link" href="https://taphoammo.net/post/list.html?pageNumber=3">3</a>
+                                            </li>
+                                            
+                                        
+                                            <li class="page-item">
+                                                <a class="page-link" href="https://taphoammo.net/post/list.html?pageNumber=4">4</a>
+                                            </li>
+                                            
+                                        
+                                            <li class="page-item">
+                                                <a class="page-link" href="https://taphoammo.net/post/list.html?pageNumber=5">5</a>
+                                            </li>
+                                            
+                                        
+                                            <li class="page-item">
+                                                <a class="page-link" href="https://taphoammo.net/post/list.html?pageNumber=6">6</a>
+                                            </li>
+                                            
+                                        
+                                            <li class="page-item">
+                                                <a class="page-link" href="https://taphoammo.net/post/list.html?pageNumber=7">7</a>
+                                            </li>
+                                            
+                                        
+                                            
+                                            <li class="page-item disabled">
+                                                <a class="page-link" href="https://taphoammo.net/post/list.html#">...</a>
+                                            </li>
+                                        
+                                            <li class="page-item">
+                                                <a class="page-link" href="https://taphoammo.net/post/list.html?pageNumber=12">12</a>
+                                            </li>
+                                            
+                                        
+                                        <li class="page-item">
+                                            <a class="page-link" href="https://taphoammo.net/post/list.html?pageNumber=2">Next <i class="fas fa-angle-double-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            const element = document.getElementById("search");
+            element.addEventListener("keypress", function(event) {
+                if (event.key === "Enter") {
+                    showLoading();
+                    event.preventDefault();
+                    const search = document.getElementById("search").value
+                    window.location.href = `${window.location.origin}/post/list.html?search=${search}`;
+                    hideLoading();
+                }
+            });
+        })
+
+        function search(event){
+            showLoading();
+            document.getElementById("btnSearch").disabled = true;
+            const search = document.getElementById("search").value
+            window.location.href = `${window.location.origin}/post/list.html?search=${search}`;
+            hideLoading();
+        }
+    </script>
+
+		</div>
+		<!-- site__footer -->
+<footer class="site__footer">
+	<div id="site_footer" class="site-footer">
+		<div class="container">
+			<div class="site-footer__widgets">
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="site-footer__widget footer-contacts">
+							<h5 class="footer-contacts__title">Liên hệ</h5>
+							<div class="footer-contacts__text">Liên hệ ngay nếu bạn có khó khăn khi sử dụng dịch vụ hoặc cần hợp tác.</div>
+							<ul class="footer-contacts__contacts">
+								<li><i class="footer-contacts__icon fa fa-paper-plane"></i><a rel="nofollow" href="https://taphoammo.net/chat-box.html?chat_to=taphoammo" target="_blank">Chat với hỗ trợ viên</a></li>
+								<li><i class="footer-contacts__icon fab fa-facebook"></i><a rel="nofollow" target="_blank" href="https://fb.com/taphoammo"> Tạp hóa MMO</a></li>
+								<li><i class="footer-contacts__icon far fa-envelope"></i> support@taphoammo.net</li>
+								<li><i class="footer-contacts__icon far fa-clock"></i> Mon-Sat 08:00am - 10:00pm</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="site-footer__widget footer-links">
+							<h5 class="footer-links__title">Thông tin</h5>
+							<ul class="footer-links__list">
+								<li class="footer-links__item"><span class="footer-links__link">Một ứng dụng nhằm kết nối, trao đổi, mua bán trong cộng đồng kiếm tiền online.</span></li>
+								<li class="footer-links__item"><span class="footer-links__link">Thanh toán tự động, nhận hàng ngay tức thì.</span></li>
+								<li class="footer-links__item"><a rel="nofollow" href="https://taphoammo.net/FAQs.html" class="footer-links__link">Câu hỏi thường gặp</a></li>
+								<li class="footer-links__item"><a rel="nofollow" href="https://taphoammo.net/quy-dinh.html" class="footer-links__link">Điều khoản sử dụng</a></li>
+
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-12 col-lg-4">
+						<div class="site-footer__widget footer-newsletter">
+							<h5 class="footer-newsletter__title">Đăng ký bán hàng</h5>
+							<div class="footer-newsletter__text">Tạo một gian hàng của bạn trên trang của chúng tôi. Đội ngũ hỗ trợ sẽ liên lạc để giúp bạn tối ưu khả năng bán hàng.</div>
+							<div>
+								<a rel="nofollow" class="footer-newsletter__form-button btn btn-primary" href="https://taphoammo.net/register.html" style="background-color:#21bf73; color: #fff;">Tham gia</a>
+							</div>
+							<div class="footer-newsletter__text footer-newsletter__text--social">Theo dõi chúng tôi trên mạng xã hội</div>
+							<!-- social-links -->
+							<div class="social-links footer-newsletter__social-links social-links--shape--circle">
+								<ul class="social-links__list">
+									<li class="social-links__item">
+										<a class="social-links__link social-links__link--type--rss">
+											<i class="fas fa-rss"></i>
+										</a>
+									</li>
+									<li class="social-links__item">
+										<a rel="nofollow" class="social-links__link social-links__link--type--youtube" href="https://www.youtube.com/channel/UCvd9HeIqxmO3omtS7PJSapQ" target="_blank">
+												<i class="fab fa-youtube"></i>
+										</a>
+									</li>
+									<li class="social-links__item">
+										<a rel="nofollow" class="social-links__link social-links__link--type--facebook" href="https://fb.me/taphoammo" target="_blank">
+												<i class="fab fa-facebook-f"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- social-links / end -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="site-footer__bottom">
+				<div class="site-footer__copyright">
+					<a rel="nofollow" target="_blank" href="https://fb.com/taphoammo"> <b>All rights reserved:</b></a>
+					<a rel="nofollow" target="_blank" href="https://fb.com/taphoammo"> <b>HCT DIGITAL TECHNOLOGY DEVELOPMENT COMPANY LIMITED</b></a>
+				</div>
+			</div>
+		</div>
+		<div class="totop">
+			<div class="totop__body">
+				<div class="totop__start" style="display: flex;">
+					
+				</div>
+				<div class="totop__container container_fix"></div>
+				<div class="totop__end">
+					<button type="button" class="totop__button" style="background-color: #21bf73;">
+						<svg width="13px" height="8px">
+							<use xlink:href="/images/svg/sprite.svg#arrow-rounded-up-13x8"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		
+      <style>
+      	.super_note{
+			width: 350px; 
+			border: 1px solid #21bf73;
+			border-radius: 3px; 
+			color: white; 
+			background-color:#21bf73 ;
+			z-index: 1000; 
+			position: fixed;
+    		bottom: 15px;
+    		box-shadow:2px 3px 3px #888888;
+    		overflow: hidden;
+    		display:none
+		}
+      </style>
+      <div id="super_note" class="super_note" style="display: none; width: 350px;">
+      		<div class="row">
+      			<div class="col-3">
+      				<button onclick="hideNoteDetail();" style="background-color: #21bf73;padding: 13px;height: 100%;" class="indicator__area btn">
+      					<i class="far fa-bell" style="font-size:20px;color:white;"></i>
+      					<span style="display: inline;" class="indicator__value">1</span>
+      				</button>
+      			</div>
+      			<div id="body_note" class="col-9" style="margin: auto; text-align: center; padding: 5px;">
+      				<div>
+      					<a id="note_url" href="https://taphoammo.net/">
+							<b><span id="note_header" style="font-size: 16px;color:white;"></span></b><br>
+							<div id="note_body" style="font-size: 13px;color:white; "></div>
+							<span id="note_status" class="badge badge-warning" style="font-size: 12px; "></span><br>
+						</a>
+						
+					</div>
+      			</div>
+      		</div>
+		</div>
+		<script>
+			var isHidden = false;
+			function hideNoteDetail(){
+				if(!isHidden){
+					isHidden = true;
+					localStorage.setItem("hide_note","true");
+					$("#body_note").hide();
+					$("#super_note").animate({
+				        width: "50px"
+				    }, 300 );
+			    }else{
+					isHidden=false;
+					localStorage.setItem("hide_note","false");
+					$("#super_note").animate({
+				        width: "350px"
+				    }, 300 );
+				    $("#body_note").show();
+				}
+			}
+			var hideNote = localStorage.getItem("hide_note");
+			
+			if(hideNote==null || hideNote=="false"){
+				isHidden = true;
+			}else{
+				isHidden = false;
+			}
+			hideNoteDetail();
+			var diffsecond = 0;
+			$( document ).ready(function() {
+			    checkSupperNote();
+			    setInterval(checkSupperNote, 300000);
+			});
+			function countdownNote(){
+				diffsecond = diffsecond-1;
+				if(diffsecond<=0){
+					$("#note_status").text("Đang diễn ra");
+				}else{
+					 var days = Math.floor(diffsecond / ( 60 * 60 * 24));
+					 var hours = Math.floor((diffsecond % ( 60 * 60 * 24)) / ( 60 * 60));
+					 var minutes = Math.floor((diffsecond % ( 60 * 60)) / ( 60));
+					 var seconds = Math.floor((diffsecond % ( 60)) );
+					
+					  var displayCountdown = days + "d " + hours + "h "
+					  + minutes + "m " + seconds + "s ";
+					  $("#note_status").text("Sắp diễn ra: "+displayCountdown);
+				}
+				
+			}
+			function checkSupperNote(){
+				$.ajax({
+					url: "/get-event.html",
+					type: "POST",
+					async:false,
+					success: function (response) {
+						if(response.success){
+							
+							var note_header = response.event.header;
+							var note_body = response.event.body;
+							var note_start_time = response.event.startTime;
+							var note_end_time = response.event.endTime;
+							
+							$("#note_header").text(note_header);
+							$("#note_url").attr("href",response.event.link );
+							if(note_body!=null){
+								$("#note_body").text(note_body);
+							}
+							 var date1 = new Date(note_start_time);
+							  var date2 = new Date(note_end_time);
+							 var date3 = new Date();
+							 var startSeconds = parseInt((date3-date1)/1000);
+							 var endSeconds = parseInt((date3-date2)/1000);
+							 if(endSeconds>0){
+								$("#super_note").hide();
+							}else{
+								if(startSeconds>0 ){
+									$("#note_status").text("Đang diễn ra");
+								}else{
+									diffsecond = -startSeconds;
+									countdownNote();
+									 setInterval(countdownNote, 1000);
+								}
+								$("#super_note").show();
+							}
+							
+						}else{
+							$("#super_note").hide();
+						}
+					}
+				});
+			}
+		</script>
+
+	</div>
+</footer>
+<!-- site__footer / end -->
+
+		
+	<!-- mobilemenu -->
+	<div class="mobilemenu">
+		<div class="mobilemenu__backdrop"></div>
+		<div class="mobilemenu__body">
+			<div class="mobilemenu__header">
+				<div class="mobilemenu__title">Menu</div>
+				<button type="button" class="mobilemenu__close">
+					<svg width="20px" height="20px">
+						<use xlink:href="/images/svg/sprite.svg#cross-20"></use>
+					</svg>
+				</button>
+			</div>
+			<div class="mobilemenu__content">
+				<ul class="mobile-links mobile-links--level--0" data-collapse="" data-collapse-opened-class="mobile-links__item--open">
+					<li class="mobile-links__item" data-collapse-item="">
+						<div class="mobile-links__item-title">
+							<a href="https://taphoammo.net/" class="mobile-links__item-link">Trang chủ</a>
+						</div>
+					</li>
+
+					<li class="mobile-links__item" data-collapse-item="">
+						<div class="mobile-links__item-title">
+							<a data-collapse-trigger="" class="mobile-links__item-link">Sản phẩm</a>
+							<button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
+								<svg class="mobile-links__item-arrow" width="12px" height="7px">
+									<use xlink:href="/images/svg/sprite.svg#arrow-rounded-down-12x7"></use>
+								</svg>
+							</button>
+						</div>
+						<div class="mobile-links__item-sub-links" data-collapse-content="">
+							<ul class="mobile-links mobile-links--level--1">
+								
+									<li class="mobile-links__item" data-collapse-item="">
+										<div class="mobile-links__item-title">
+											<a href="https://taphoammo.net/danh-muc/email" class="mobile-links__item-link">Email</a>
+										</div>
+									</li>
+								
+									<li class="mobile-links__item" data-collapse-item="">
+										<div class="mobile-links__item-title">
+											<a href="https://taphoammo.net/danh-muc/phan-mem" class="mobile-links__item-link">Phần mềm</a>
+										</div>
+									</li>
+								
+									<li class="mobile-links__item" data-collapse-item="">
+										<div class="mobile-links__item-title">
+											<a href="https://taphoammo.net/danh-muc/tai-khoan" class="mobile-links__item-link">Tài khoản</a>
+										</div>
+									</li>
+								
+									<li class="mobile-links__item" data-collapse-item="">
+										<div class="mobile-links__item-title">
+											<a href="https://taphoammo.net/danh-muc/danh-muc-khac" class="mobile-links__item-link">Khác</a>
+										</div>
+									</li>
+								
+							</ul>
+						</div>
+					</li>
+					<li class="mobile-links__item" data-collapse-item="">
+						<div class="mobile-links__item-title">
+							<a data-collapse-trigger="" class="mobile-links__item-link">Dịch vụ</a>
+							<button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
+								<svg class="mobile-links__item-arrow" width="12px" height="7px">
+									<use xlink:href="/images/svg/sprite.svg#arrow-rounded-down-12x7"></use>
+								</svg>
+							</button>
+						</div>
+						<div class="mobile-links__item-sub-links" data-collapse-content="">
+							<ul class="mobile-links mobile-links--level--1">
+								
+									<li class="mobile-links__item" data-collapse-item="">
+										<div class="mobile-links__item-title">
+											<a href="https://taphoammo.net/danh-muc/dich-vu-tuong-tac" class="mobile-links__item-link">Tăng tương tác</a>
+										</div>
+									</li>
+								
+									<li class="mobile-links__item" data-collapse-item="">
+										<div class="mobile-links__item-title">
+											<a href="https://taphoammo.net/danh-muc/dich-vu-phan-mem" class="mobile-links__item-link">Dịch vụ phần mềm</a>
+										</div>
+									</li>
+								
+									<li class="mobile-links__item" data-collapse-item="">
+										<div class="mobile-links__item-title">
+											<a href="https://taphoammo.net/danh-muc/dich-vu-blockchain" class="mobile-links__item-link">Blockchain</a>
+										</div>
+									</li>
+								
+									<li class="mobile-links__item" data-collapse-item="">
+										<div class="mobile-links__item-title">
+											<a href="https://taphoammo.net/danh-muc/dich-vu-khac" class="mobile-links__item-link">Dịch vụ khác</a>
+										</div>
+									</li>
+								
+							</ul>
+						</div>
+					</li>
+
+					<li class="mobile-links__item" data-collapse-item="">
+						<div class="mobile-links__item-title">
+							<a href="https://taphoammo.net/support.html" class="mobile-links__item-link">Hỗ trợ</a>
+						</div>
+					</li>
+
+					<li class="mobile-links__item" data-collapse-item="">
+						<div class="mobile-links__item-title">
+							<a data-collapse-trigger="" class="mobile-links__item-link">Công cụ</a>
+							<button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
+								<svg class="mobile-links__item-arrow" width="12px" height="7px">
+									<use xlink:href="/images/svg/sprite.svg#arrow-rounded-down-12x7"></use>
+								</svg>
+							</button>
+						</div>
+						<div class="mobile-links__item-sub-links" data-collapse-content="">
+							<ul class="mobile-links mobile-links--level--1">
+								<li class="mobile-links__item" data-collapse-item="">
+									<div class="mobile-links__item-title">
+										<a href="https://taphoammo.net/2FA.html" class="mobile-links__item-link">2FA</a>
+									</div>
+								</li>
+								<li class="mobile-links__item" data-collapse-item="">
+									<div class="mobile-links__item-title">
+										<a href="https://taphoammo.net/check-live-facebook.html" class="mobile-links__item-link">Check live FB</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					
+					
+					<li class="mobile-links__item" data-collapse-item="">
+						<div class="mobile-links__item-title">
+							<a class="mobile-links__item-link" href="https://taphoammo.net/post/list.html">
+								Chia sẻ kinh nghiệm MMO
+							</a>
+						</div>
+					</li>
+
+<!--					<li class="mobile-links__item" data-collapse-item>-->
+<!--						<div class="mobile-links__item-title">-->
+<!--							<a class="mobile-links__item-link" th:href="@{/post/your-self.html}" >Bài viết của bạn</a></span>-->
+<!--						</div>-->
+<!--					</li>-->
+					<li class="mobile-links__item" data-collapse-item="">
+						<div class="mobile-links__item-title">
+							<a href="https://taphoammo.net/post/list.html#" data-collapse-trigger="" class="mobile-links__item-link">Thông tin tài khoản</a>
+							<button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
+								<svg class="mobile-links__item-arrow" width="12px" height="7px">
+									<use xlink:href="/images/svg/sprite.svg#arrow-rounded-down-12x7"></use>
+								</svg>
+							</button>
+						</div>
+						<div class="mobile-links__item-sub-links" data-collapse-content="">
+							<ul class="mobile-links mobile-links--level--1">
+								
+									<li class="mobile-links__item" data-collapse-item="">
+										<div class="mobile-links__item-title">
+											<a href="https://taphoammo.net/login.html" class="mobile-links__item-link">Đăng nhập</a>
+										</div>
+									</li>
+								
+
+								
+							</ul>
+						</div>
+					</li>
+
+					<li class="mobile-links__item" data-collapse-item="">
+						<div class="mobile-links__item-title">
+							<a data-collapse-trigger="" class="mobile-links__item-link">Ngôn ngữ:</a>
+							<button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
+								<svg class="mobile-links__item-arrow" width="12px" height="7px">
+									<use xlink:href="/images/svg/sprite.svg#arrow-rounded-down-12x7"></use>
+								</svg>
+							</button>
+						</div>
+						<div class="mobile-links__item-sub-links" data-collapse-content="">
+							<ul class="mobile-links mobile-links--level--1">
+								<li class="mobile-links__item" data-collapse-item="">
+									<div class="mobile-links__item-title">
+										<a href="https://taphoammo.net/post/list.html" class="mobile-links__item-link">English</a>
+									</div>
+								</li>
+								<li class="mobile-links__item" data-collapse-item="">
+									<div class="mobile-links__item-title">
+										<a href="https://taphoammo.net/post/list.html" class="mobile-links__item-link">Việt Nam</a>
+									</div>
+								</li>
+
+							</ul>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- mobilemenu / end -->
+
+
+		
+		
+	<!-- js -->
+	<script src="./js/bootstrap.bundle.min.js."></script>
+	<script src="./js/owl.carousel.min.js."></script>
+	<script src="./js/nouislider.min.js."></script>
+	<script src="./js/photoswipe.min.js."></script>
+	<script src="./js/photoswipe-ui-default.min.js."></script>
+	<script src="./js/select2.min.js."></script>
+	<script src="./js/number.js."></script>
+	<script src="./js/main.js."></script>
+	<script src="./js/header.js."></script>
+	<script src="./js/svg4everybody.min.js."></script>
+	<script src="./js/jquery.dataTables.min.js."></script>
+	<script src="./js/sweetalert.min.js."></script>
+	<script src="./js/toastr.min.js."></script>
+	<script src="./js/summernote.min.js."></script>
+
+	<script src="./js/bootstrap-datepicker.js."></script>
+	<script>
+		hideLoading();
+		function showLoading() {
+			$('.holder').show();
+		}
+		function hideLoading() {
+			$('.holder').hide();
+		}
+		svg4everybody();
+
+		const token = $("meta[name='_csrf']").attr("content");
+		const header = $("meta[name='_csrf_header']").attr("content");
+		$(document).ajaxSend(function (e, xhr, options) {
+			xhr.setRequestHeader(header, token);
+		});
+	</script>
+	
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- Google tag (gtag.js) -->
+		<script async="" src="./Tạp hóa MMO _ Chia sẻ kinh nghiệm MMO_files/js"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-1DX3JZJ613');
+		</script>
+
+
+	  
+
+
+
+		
+	</div>
+
+
+
+</body></html>
