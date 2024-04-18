@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://taphoammo.net/shop.html -->
+<html lang="en" dir="ltr" xmlns:with="http://www.thymeleaf.org/extras/with">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Required meta tags -->
+
+	<meta name="_csrf" content="09e81db3-51f8-465d-be17-e9bd042f3b2b">
+	<!-- default header name is X-CSRF-TOKEN -->
+	<meta name="_csrf_header" content="X-CSRF-TOKEN">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Font & Icon -->
+	<link rel="stylesheet" href="./assets/css/inter.min.css" id="font-css">
+	<link rel="stylesheet" href="./assets/css/material-design-icons.min.css">
+	<link rel="stylesheet" href="./assets/css/all.min.css">
+	<!-- Plugins -->
+	<link rel="stylesheet" href="./assets/css/jqvmap.min.css">
+	<link rel="stylesheet" href="./assets/css/flatpickr.min.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" href="./assets/css/responsive.bootstrap4.min.css">
+
+	<!-- Main Style -->
+	<link rel="stylesheet" href="./assets/css/simplebar.min.css">
+	<link rel="stylesheet" href="./assets/css/style.min.css" id="main-css">
+	<link rel="stylesheet" href="./assets/css/sidebar-royal.min.css" id="theme-css">
+	<link rel="stylesheet" href="./assets/css/default.min.css">
+	<link rel="stylesheet" href="./assets/css/sweetalert.css">
+
+	<script type="text/javascript" async="" src="./assets/js/analytics.js"></script>
+	<script type="text/javascript" async="" src="./assets/js/js"></script>
+	<script src="./assets/js/jquery.min.js"></script>
+
+	<script src="./assets/js/sceditor.min.js"></script>
+
+	<link rel="icon" type="image/png" href="https://taphoammo.net/images/logo/logo.jpg">
+	<link rel="icon" href="https://taphoammo.net/images/icon/favicon.ico" type="image/ico">
+	<script src="./assets/js/moment.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+	<!-- Sidebar -->
+	<div class="sidebar">
+		<!-- Sidebar header -->
+		<div class="sidebar-header">
+			<a href="https://taphoammo.net/" target="_blank" class="logo">
+				<img src="./assets/images/logo.svg" alt="Logo" id="main-logo">
+				taphoammo.net
+			</a>
+			<a href="https://taphoammo.net/shop.html#" class="nav-link nav-icon rounded-circle ml-auto"
+				data-toggle="sidebar">
+				<i class="material-icons">close</i>
+			</a>
+		</div>
+		<!-- /Sidebar header -->
+
+		<!-- Sidebar body -->
+		<div class="sidebar-body" data-simplebar="init">
+			<div class="simplebar-wrapper" style="margin: 0px;">
+				<div class="simplebar-height-auto-observer-wrapper">
+					<div class="simplebar-height-auto-observer"></div>
+				</div>
+				<div class="simplebar-mask">
+					<div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+						<div class="simplebar-content-wrapper" style="height: 100%; overflow: hidden scroll;">
+							<div class="simplebar-content" style="padding: 0px;">
+								<ul class="nav treeview mb-4" data-accordion="">
+									<li class="nav-label">SALE</li>
+									<li class="nav-item">
+										<a id="dashboard" class="nav-link has-icon"
+											href="https://taphoammo.net/shop-sale.html"><svg
+												xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+												stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-shopping-bag">
+												<path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+												<line x1="3" y1="6" x2="21" y2="6"></line>
+												<path d="M16 10a4 4 0 0 1-8 0"></path>
+											</svg>Sales</a>
+									</li>
+									<li class="nav-label">SHOP</li>
+									<li class="nav-item">
+										<a id="kiosk" class="nav-link has-icon active"
+											href="https://taphoammo.net/shop.html"><i
+												class="fas fas fa-clipboard-list"></i>Quản lý gian hàng</a>
+									</li>
+									<li class="nav-item">
+										<a id="orders" class="nav-link has-icon"
+											href="https://taphoammo.net/orders-sell.html?page_type=PRODUCT"><i
+												class="fa fa-file-invoice-dollar"></i>Đơn hàng sản phẩm&nbsp; <span
+												style="display:none;" id="product_sell_new"
+												class="badge badge-light">0</span></a>
+									</li>
+									<li class="nav-item">
+										<a id="orderService" class="nav-link has-icon"
+											href="https://taphoammo.net/orders-sell.html?page_type=SERVICE"><i
+												class="fas fa-list-ol"></i>Đơn hàng dịch vụ&nbsp; <span
+												style="display:none;" id="service_sell_new"
+												class="badge badge-light">0</span></a>
+									</li>
+									<li class="nav-item">
+										<a id="preorders" class="nav-link has-icon"
+											href="https://taphoammo.net/preorders.html"><i class="fa fa-clock"></i>Đặt
+											trước&nbsp; <span style="display:none;" id="product_presell_new"
+												class="badge badge-light">0</span></a>
+									</li>
+
+									<li class="nav-item">
+										<a id="dispute" class="nav-link has-icon"
+											href="https://taphoammo.net/dispute.html"><i class="fa fa-bug"></i>Khiếu
+											nại&nbsp; <span style="display:none;" id="dispute_new"
+												class="badge badge-light">0</span></a>
+									</li>
+									<li class="nav-item">
+										<a id="reseller" class="nav-link has-icon"
+											href="https://taphoammo.net/reseller-for-shop.html"><i
+												class="fa fa-users"></i>Quản lý Reseller&nbsp;<span
+												style="display:none;" id="reseller_new"
+												class="badge badge-light">0</span></a>
+									</li>
+									<li class="nav-item">
+										<a id="reply" class="nav-link has-icon"
+											href="https://taphoammo.net/reply-comment.html"><i
+												class="far fa-comments"></i>Đánh giá&nbsp;<span style="display:none;"
+												id="rating_new" class="badge badge-light">0</span></a>
+									</li>
+									<li class="nav-item">
+										<a id="promotion" class="nav-link has-icon"
+											href="https://taphoammo.net/promotion.html"><i
+												class="fas fa-dollar-sign"></i>Mã giảm giá</a>
+									</li>
+
+									<li class="nav-item">
+										<a id="topKiosk" class="nav-link has-icon"
+											href="https://taphoammo.net/top-kiosk.html"><i
+												class="fas fa-arrow-up"></i>Gian hàng Top 1</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="simplebar-placeholder" style="width: auto; height: 522px;"></div>
+			</div>
+			<div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+				<div class="simplebar-scrollbar" style="width: 0px; display: none;"></div>
+			</div>
+			<div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+				<div class="simplebar-scrollbar"
+					style="height: 469px; transform: translate3d(0px, 0px, 0px); display: block;"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="main">
+		<!-- Main header -->
+
+		<div class="main-header">
+			<a class="nav-link nav-link-faded rounded-circle nav-icon" href="https://taphoammo.net/shop.html#"
+				data-toggle="sidebar"><i class="material-icons">menu</i></a>
+
+			<ul class="nav nav-circle ml-auto">
+				<li class="nav-item">
+					<a class="nav-link nav-link-faded nav-icon has-badge " href="https://taphoammo.net/chat-box.html"
+						target="_blank" data-display="static">
+						<i class="far fa-comment-dots"></i>
+						<span id="chatNotify" class="badge-secondary badge badge-pill"></span>
+					</a>
+
+				</li>
+				<li class="nav-item dropdown ml-2">
+					<a class="nav-link nav-link-faded rounded nav-link-img dropdown-toggle px-2"
+						href="https://taphoammo.net/shop.html#" data-toggle="dropdown" data-display="static">
+						<img src="./assets/images/user.svg" alt="Admin" class="rounded-circle mr-2">
+						<span class="d-none d-sm-block">arturo_59g7tb</span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right pt-0 overflow-hidden">
+						<div class="media align-items-center bg-primary text-white px-4 py-3 mb-2">
+							<img src="./assets/images/user.svg" alt="Admin" class="rounded-circle" width="50"
+								height="50">
+							<div class="media-body ml-2 text-nowrap">
+								<h6 class="mb-0">arturo_59g7tb</h6>
+								<!--<span class="text-gray-400 font-size-sm">Administrator</span>-->
+							</div>
+						</div>
+						<a class="dropdown-item has-icon text-danger" href="https://taphoammo.net/logout.html"><svg
+								xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+								fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+								stroke-linejoin="round" class="feather feather-log-out mr-2">
+								<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+								<polyline points="16 17 21 12 16 7"></polyline>
+								<line x1="21" y1="12" x2="9" y2="12"></line>
+							</svg>Đăng xuất</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+
+
+		<div class="main-body">
+
+			<script src="./assets/js/jquery.min(1).js"></script>
+
+			<title>Quản lý gian hàng - Tạp hóa MMO</title>
+			<div class="card">
+				<div class="card-body">
+					<div class="row">
+						<h5 class="col-5 col-lg-5 col-xl-5">Gian hàng</h5>
+						<div class="col-7 col-lg-7 col-xl-7 text-right" style="text-align: right;">
+							<a href="https://taphoammo.net/kiosk-add.html" class="btn rounded-pill btn-primary">Thêm
+								mới</a>
+						</div>
+						<div class="col-12">
+							<span>Bạn được tạo tối đa 5 gian hàng.</span>
+						</div>
+					</div>
+
+					<table class="table table-hover table-responsive">
+						<thead class="thead-light">
+							<tr>
+								<th class="text-center" scope="col">Thao tác</th>
+								<th scope="col">Tên gian hàng</th>
+								<th scope="col">Loại</th>
+								<th class="text-center" scope="col">Trùng</th>
+								<th class="text-center" scope="col">Reseller</th>
+								<th scope="col" class="text-right">Đơn giá</th>
+								<th scope="col" class="text-right">Sàn</th>
+								<th scope="col" class="text-right">
+									<a data-toggle="tooltip" title=""
+										data-original-title="Bấm vào để xem chi tiết tồn kho của từng mặt hàng">
+										Kho<i style="font-size:10px; display: inline;"
+											class="fa fa-question-circle"></i>
+									</a>
+								</th>
+								<th scope="col">Ngày tạo</th>
+								<th scope="col" class="text-right">Trạng thái</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+					</table>
+
+					<!-- Paging-->
+					<nav aria-label="Page navigation" class="paging">
+
+					</nav>
+				</div>
+			</div>
+
+			<div class="modal inmodal" id="subKioskProducts" tabindex="-1" role="dialog" aria-hidden="true"
+				data-backdrop="static" data-keyboard="false">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Quản lý mặt hàng/kho</h5><br>
+
+						</div>
+						<div class="modal-body">
+							<h6>Gian hàng: <span id="kioskNameTitle"></span> </h6>
+							<div id="isPrivateDiv" class="form-group form-check">
+								<input class="form-check-input" type="checkbox" id="isPrivateKiosk"
+									onchange="changePrivateKiosk();">
+								<label class="form-check-label" for="isPrivate">
+									Sử dụng kho hàng riêng
+									<span style="font-size: 12px;" class="text-danger">(Thiết lập này yêu cầu bạn có
+										server kho hàng riêng và có API lấy hàng cung cấp cho sàn)</span>
+								</label>
+							</div>
+							<hr>
+							<div id="tableSubKiosks">
+								<div class="table-responsive">
+									<table class="table table-hover">
+										<thead class="thead-light">
+											<tr>
+												<th>Tên mặt hàng</th>
+												<th>Giá</th>
+												<th>Trạng thái</th>
+												<th>Tồn kho</th>
+												<th class="text-center text-nowrap">Thao tác</th>
+											</tr>
+										</thead>
+										<tbody id="subKioskModalBody">
+
+										</tbody>
+									</table>
+								</div>
+								<div><input type="hidden" id="actionKioskId"></div>
+								<div id="newSubKioskForm" class="row">
+									<hr>
+									<div class="col-6">
+										<input id="newSubName" type="text" placeholder="Tên mặt hàng"
+											class="form-control">
+									</div>
+									<div class="col-6">
+										<input id="newSubPrice" type="number" min="0" placeholder="Giá tiền"
+											class="form-control">
+									</div>
+									<div id="softDiv" style="display: none;">
+										<div class="col-12">
+											<div class="form-group">
+												<br><label>Đơn vị tính hạn sử dụng (<i>Thiết lập này sẽ hiển thị đơn vị
+														tính
+														thời gian sử dụng trên gian hàng của bạn</i>)</label>
+												<select id="this_drop_down" onchange="onChangeMe()"
+													class="form-control custom-select" required="">
+													<option value="day">Theo Ngày</option>
+													<option value="month">Theo Tháng</option>
+													<option value="year">Theo Năm</option>
+													<option value="life_time">Chỉ bán vĩnh viễn</option>
+													<option value="day_life_time">Theo Ngày và có tùy chọn vĩnh viễn
+													</option>
+													<option value="month_life_time">Theo Tháng và có tùy chọn vĩnh viễn
+													</option>
+													<option value="year_life_time">Theo Năm và có tùy chọn bán vĩnh viễn
+													</option>
+												</select>
+											</div>
+										</div>
+										<div id="life_time_price" style="display:none; z-index:1;"
+											class="col-12 col-lg-6 col-xl-6">
+											<div class="form-group">
+												<label>Giá bản vĩnh viễn (lifetime)</label>
+												<input id="newLifeTimePrice" type="number" min="0" class="form-control">
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="form-group">
+												<label>
+													Đường dẫn tải phần mềm (<i>Chỉ trả về cho khách hàng sau khi đơn
+														hàng thành công</i>)
+												</label>
+												<input id="newSoftUrl" type="text" class="form-control">
+											</div>
+										</div>
+									</div>
+									<div style="text-align: left;" class="col-12">
+										<br><button onclick="actionSubKiosk(&#39;NEW&#39;)" type="button"
+											class="btn btn-primary">Thêm</button>
+									</div>
+								</div>
+							</div>
+							<div style="display:none;" id="editSubKioskForm">
+								<h5>Chỉnh sửa mặt hàng</h5>
+								<div class="row">
+
+
+									<div class="col-5">
+										<input id="editSubName" type="text" placeholder="Tên mặt hàng"
+											class="form-control">
+									</div>
+									<div class="col-4">
+										<input id="editSubPrice" type="number" min="0" placeholder="Giá tiền"
+											class="form-control">
+									</div>
+									<div class="col-3">
+										<select id="editStatus" class="form-control">
+											<option value="A">Bật</option>
+											<option value="B">Tắt</option>
+										</select>
+									</div>
+									<div id="softDivEdit" style="display: none;">
+										<div class="col-12">
+											<div class="form-group">
+												<br><label>Đơn vị tính hạn sử dụng (<i>Thiết lập này sẽ hiển thị đơn vị
+														tính
+														thời gian sử dụng trên gian hàng của bạn</i>)</label>
+												<select id="this_drop_down_edit" onchange="onChangeMe2()"
+													class="form-control custom-select" required="">
+													<option value="day">Theo Ngày</option>
+													<option value="month">Theo Tháng</option>
+													<option value="year">Theo Năm</option>
+													<option value="life_time">Chỉ bán vĩnh viễn</option>
+													<option value="day_life_time">Theo Ngày và có tùy chọn vĩnh viễn
+													</option>
+													<option value="month_life_time">Theo Tháng và có tùy chọn vĩnh viễn
+													</option>
+													<option value="year_life_time">Theo Năm và có tùy chọn bán vĩnh viễn
+													</option>
+												</select>
+											</div>
+										</div>
+										<div id="life_time_price_edit" style="display:none; z-index:1;"
+											class="col-12 col-lg-6 col-xl-6">
+											<div class="form-group">
+												<label>Giá bản vĩnh viễn (lifetime)</label>
+												<input id="newLifeTimePrice_edit" type="number" min="0"
+													class="form-control">
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="form-group">
+												<label>
+													Đường dẫn tải phần mềm (<i>Chỉ trả về cho khách hàng sau khi đơn
+														hàng thành công</i>)
+												</label>
+												<input id="newSoftUrl_edit" type="text" class="form-control">
+											</div>
+										</div>
+									</div>
+
+									<div style="text-align: left;" class="col-12">
+										<br><input type="hidden" id="editId">
+										<button id="subKioskActionBtn" onclick="actionSubKiosk(&#39;EDIT&#39;)"
+											type="button" class="btn btn-primary">Submit</button>
+										<button onclick="cancelEdit();" type="button"
+											class="btn btn-secondary">Hủy</button>
+
+									</div>
+
+								</div>
+							</div>
+							<div id="serviceNote" class="row">
+								<div class="col-12">
+									<br>*Lưu ý:
+									<li><span class="text-success">Với những dịch vụ có giá cố định (như giá/ lượt like,
+											share, comment...) bạn phải để giá công khai.</span></li>
+									<li><span class="text-success">Nhập vào giá bằng <b style="color:black;">0</b> đối
+											với dịch vụ có giá thỏa thuận (như code tool, đồ họa...), khi khách đặt hàng
+											sẽ phải nhập vào giá 2 bên đã thỏa thuận.</span></li>
+								</div>
+							</div>
+
+							<p style="padding-top: 10px;" class="text-danger" id="myActionRs"></p>
+						</div>
+
+						<div class="modal-footer">
+
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+						</div>
+					</div>
+				</div>
+				<script>
+					var formAction = '<a data-id="{id}" onclick="editSubKiosk(this);" href="#" data-toggle="tooltip" title="Chỉnh sửa">' +
+						'	<i class="fa fa-edit fa-2x"></i>' +
+						'</a>' + '<a href="/product.html/{id}" data-toggle="tooltip"' +
+						'	title="Thêm sản phẩm">' +
+						'	<i class="fas fa-plus-circle fa-2x"></i>' +
+						'</a>' +
+
+						'<a onclick="deleteProduct(this)" data-id="{id}" href="#" data-toggle="tooltip" title="Xóa sản phẩm chưa bán">' +
+						'	<i class="fas fa-trash-alt fa-2x"></i>' +
+						'</a>';
+					var formActionService = '<a data-id="{id}" onclick="editSubKiosk(this);" href="#" data-toggle="tooltip" title="Chỉnh sửa">' +
+						'	<i class="fa fa-edit fa-2x"></i>';
+					function addCommas(nStr) {
+						nStr += '';
+						x = nStr.split('.');
+						x1 = x[0];
+						x2 = x.length > 1 ? '.' + x[1] : '';
+						var rgx = /(\d+)(\d{3})/;
+						while (rgx.test(x1)) {
+							x1 = x1.replace(rgx, '$1' + '.' + '$2');
+						}
+						return x1 + x2;
+					}
+					function actionSubKiosk(action) {
+						$("#myActionRs").text("");
+						var kiosk_id = $("#actionKioskId").val();
+						var subKioskId = "";
+						var subName = "";
+						var subPrice = "";
+						var subStatus = "";
+						var softUnit = "";
+						var softUrl = "";
+						var softLifeTimePrice = 0;
+						if (action == "EDIT") {
+							subKioskId = $("#editId").val();
+							subName = $("#editSubName").val();
+							subPrice = $("#editSubPrice").val();
+							subStatus = $("#editStatus").val();
+							softUnit = $("#this_drop_down_edit").val();
+							softUrl = $("#newSoftUrl_edit").val();
+							softLifeTimePrice = $("#newLifeTimePrice_edit").val();
+						} else {
+							subName = $("#newSubName").val();
+							subPrice = $("#newSubPrice").val();
+							subStatus = "A";
+							softUnit = $("#this_drop_down").val();
+							softUrl = $("#newSoftUrl").val();
+							softLifeTimePrice = $("#newLifeTimePrice").val();
+						}
+						if (subName == "" || subPrice < 0) {
+							$("#myActionRs").text("Giá trị nhập vào không đúng!");
+						} else {
+							$.ajax({
+								url: "/sub-kiosk-action.html",
+								type: "POST",
+								data: { id: kiosk_id, subKioskId: subKioskId, subName: subName, subPrice: subPrice, subStatus: subStatus, softUnit: softUnit, softUrl: softUrl, softLifeTimePrice: softLifeTimePrice, action: action },
+								async: false,
+								success: function (response) {
+									if (response.success) {
+										cancelEdit();
+										validateSubKioskProducts(kiosk_id);
+										$("#myActionRs").text(response.message);
+									} else {
+										$("#myActionRs").text(response.message);
+									}
+								}
+							});
+						}
+
+
+
+					}
+					var allSubTmp = null;
+					var isSoftKiosk = false;
+					function validateSubKioskProducts(kiosk_id) {
+						$.ajax({
+							url: "/get-sub-kiosks.html",
+							type: "POST",
+							data: { id: kiosk_id },
+							async: false,
+							success: function (response) {
+								if (response.success) {
+									$("#myActionRs").text("");
+									$("#kioskNameTitle").html(response.title);
+									cancelEdit();
+									var subKiosks = response.subKiosks;
+									allSubTmp = subKiosks;
+									var html = "";
+
+									for (var i = 0; i < subKiosks.length; i++) {
+
+										var myAction = ""; formAction.replaceAll("{id}", subKiosks[i].id);
+										if (response.isService) {
+											myAction = formActionService.replaceAll("{id}", subKiosks[i].id);
+											$("#serviceNote").show();
+											$("#isPrivateDiv").hide();
+
+										}
+										else {
+											myAction = formAction.replaceAll("{id}", subKiosks[i].id);
+											$("#serviceNote").hide();
+											$("#isPrivateDiv").show();
+										}
+										var myHtml = '<tr data-id="' + subKiosks[i].id + '">' +
+											'<td>' + subKiosks[i].name + '</td>' +
+											'<td>' + addCommas(subKiosks[i].price) + '</td>' +
+											'<td><a class="{status_class}">' + subKiosks[i].status + '</a></td>' +
+											'<td>' + subKiosks[i].totalProduct + '</td>' +
+											'<td class="text-center text-nowrap">' + myAction + '</td>' +
+											'</tr>';
+										if (subKiosks[i].status == "A") { myHtml = myHtml.replace("{status_class}", "badge badge-success"); }
+										else { myHtml = myHtml.replaceAll("{status_class}", "badge badge-danger"); }
+										html = html + myHtml;
+									}
+									$("#subKioskModalBody").html(html);
+									$("#actionKioskId").val(kiosk_id);
+									$("#myActionRs").text(response.message);
+									$("#isPrivateKiosk").prop("checked", response.isPrivate);
+									if (response.isSoft) {
+										isSoftKiosk = true;
+										$("#softDiv").show();
+										$("#softDivEdit").show();
+
+									} else {
+										isSoftKiosk = false;
+										$("#softDiv").hide();
+										$("#softDivEdit").hide();
+									}
+
+
+								}
+							}
+						});
+
+
+					}
+					function onChangeMe() {
+						var value = $('#this_drop_down').val();
+						if (value == "day_life_time" || value == "month_life_time" || value == "year_life_time") {
+							$('#life_time_price').show();
+						} else {
+							$('#life_time_price').hide();
+						}
+					}
+					function onChangeMe2() {
+						var value = $('#this_drop_down_edit').val();
+						if (value == "day_life_time" || value == "month_life_time" || value == "year_life_time") {
+							$('#life_time_price_edit').show();
+						} else {
+							$('#life_time_price_edit').hide();
+						}
+					}
+					function changePrivateKiosk() {
+						var checked = $("#isPrivateKiosk").is(":checked");
+						var kiosk_id = $("#actionKioskId").val();
+						$.ajax({
+							url: "/api/kiosk/change-private",
+							type: "POST",
+							data: { isPrivate: checked, kiosk_id: kiosk_id },
+							async: false,
+							success: function (response) {
+
+							}
+						});
+					}
+					function editSubKiosk(elm) {
+						$("#myActionRs").text("");
+						$("#tableSubKiosks").hide();
+						$("#editSubKioskForm").show();
+						var myTr = $("tr[data-id=" + elm.getAttribute("data-id") + "]");
+						var count = 0;
+						var editId = elm.getAttribute("data-id");
+						$("#editId").val(editId);
+
+
+						for (var i = 0; i < allSubTmp.length; i++) {
+							if (allSubTmp[i].id == editId) {
+								$("#editSubName").val(allSubTmp[i].name);
+								$("#editSubPrice").val(allSubTmp[i].price);
+								var subStatus = allSubTmp[i].status;
+								$("#editStatus").val(subStatus).change();
+								if (isSoftKiosk) {
+									$("#softDivEdit").show();
+									$("#this_drop_down_edit").val(allSubTmp[i].softUnit).change();
+									$("#newSoftUrl_edit").val(allSubTmp[i].softUrl);
+									$("#newLifeTimePrice_edit").val(allSubTmp[i].softLifeTimePrice);
+
+								} else {
+									$("#softDivEdit").hide();
+								}
+
+								break;
+							}
+						}
+
+
+
+					}
+					function cancelEdit() {
+						$("#tableSubKiosks").show();
+						$("#editSubKioskForm").hide();
+						$("#newSubName").val("");
+						$("#newSubPrice").val("");
+						$("#myActionRs").text("");
+					}
+					function deleteProduct(elm) {
+						let id = $(elm).attr('data-id');
+						var kiosk_id = $("#actionKioskId").val();
+						var title = 'Xóa các sản phẩm chưa bán của mặt hàng này?';
+						swal({
+							title: title,
+							type: "warning",
+							showCancelButton: true,
+							confirmButtonColor: "#DD6B55",
+							confirmButtonText: "Đồng ý",
+							cancelButtonText: "Hủy",
+							closeOnConfirm: true,
+							closeOnCancel: false
+						},
+							function (isConfirm) {
+								if (isConfirm) {
+									$.ajax({
+										url: "/api/product/delete/" + id,
+										type: "POST",
+										data: { id: id },
+										success: function (response) {
+											if (response.hasError) {
+												$("#myActionRs").text("Xóa thất bại!");
+											} else {
+												cancelEdit();
+												validateSubKioskProducts(kiosk_id);
+												$("#myActionRs").text("Xóa thành công!");
+
+											}
+										}
+									})
+								} else {
+									swal("Hủy", "", "error");
+								}
+							});
+					}
+				</script>
+			</div>
+
+
+			<script type="text/javascript">
+				$(() => {
+					document.getElementById("kiosk").className += " active";
+				})
+			</script>
+
+
+		</div>
+	</div>
+
+
+	<!-- Main Scripts -->
+
+	<script src="./assets/js/bootstrap.bundle.min.js"></script>
+	<script src="./assets/js/simplebar.min.js"></script>
+	<script src="./assets/js/feather.min.js"></script>
+	<script src="./assets/js/script.min.js"></script>
+	<div class="sidebar-backdrop" id="sidebarBackdrop" data-toggle="sidebar"></div>
+
+	<!-- Plugins -->
+	<script src="./assets/js/jquery.dataTables.bootstrap4.responsive.min.js"></script>
+	<script src="./assets/js/sweetalert.min.js"></script>
+	<script src="./assets/js/index.js"></script>
+	<script src="./assets/js/flatpickr.min.js"></script>
+
+	<script>
+		hideLoading();
+		function showLoading() {
+			$('.holder').show();
+		}
+		function hideLoading() {
+			$('.holder').hide();
+		}
+
+		const token = $("meta[name='_csrf']").attr("content");
+		const header = $("meta[name='_csrf_header']").attr("content");
+		$(document).ajaxSend(function (e, xhr, options) {
+			xhr.setRequestHeader(header, token);
+		});
+	</script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="./assets/js/js(1)"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-121607210-1');
+	</script>
+
+	<script>
+		function beforeLogin2() {
+			if (typeof grecaptcha !== 'undefined') {
+				var siteKey = "6LdlMFIcAAAAALDBHMRWYQXmpfU34Kgz11OmxTku";
+				grecaptcha.execute(siteKey, { action: "register" }).then(function (response) {
+					$('#response3').val(response);
+					$('#formSignin').submit();
+				});
+			}
+		}
+	</script>
+	<script>
+		var out_session2 = 0;
+		var old_title = "";
+		var new_title = "";
+		var curentNewMes = 0;
+		var interval = null;
+		var new_mess = false;
+		var new_order = false;
+		var isVolumeOn = true;
+		var volume = localStorage.getItem("volume");
+		var audio = new Audio('sound/notify.mp3');
+		if (volume != null && volume == "off") {
+			isVolumeOn = false;
+		}
+		function playNotifySound() {
+			if (isVolumeOn) {
+				audio.play();
+			}
+
+		}
+
+
+		function checkFullNoff() {
+			if (out_session2 > 5) { return; }
+			$.ajax({
+				url: "/api/getNotify",
+				type: "post",
+				dataType: "text",
+				data: {
+
+				},
+				success: function (result) {
+					out_session2 = 0;
+					var rsArr = result.split("|");
+					if (rsArr.length > 3) {
+						var newOrder = rsArr[0];
+						var newComment = rsArr[1];
+						var newReseller = rsArr[2];
+						var newTopup = rsArr[3];
+						var newWating = rsArr[4];
+						var newService = rsArr[5];
+						var disputeSum = rsArr[6];
+						var newMessage = rsArr[7];
+
+						if (newMessage > 0) {
+							new_mess = true;
+							if (newMessage > curentNewMes) {
+								playNotifySound();
+							}
+
+							curentNewMes = newMessage;
+						}
+						else { new_mess = false; }
+						var showrs = newMessage;
+						if (showrs > 99) { showrs = "99+"; }
+						if (newMessage > 0) {
+							$('#chatNotify').removeClass("badge badge-pill badge-secondary");
+							$('#chatNotify').addClass("badge badge-pill badge-danger");
+						}
+						else {
+							showrs = "";
+							$('#chatNotify').removeClass("badge badge-pill badge-danger");
+							$('#chatNotify').addClass("badge badge-pill badge-secondary");
+						}
+						$('#chatNotify').text(showrs);
+
+
+						if (newTopup > 0) {
+							setTimeout(function () { swal("Nạp tiền", "Bạn vừa nạp thành công " + newTopup.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " VND", "success"); }, 100);
+						}
+
+						var sum = parseInt(newOrder) + parseInt(newComment) + parseInt(newReseller) + parseInt(newWating);
+						if (sum > 0) { new_order = true; }
+						else { new_order = false; }
+
+						if (sum > 99) { sum = "99+"; }
+						$('#noffall_1').text(sum);
+						$('#noffall_2').text(sum);
+
+						if ($("#reseller_new").length) {
+							if (parseInt(newReseller) > 0) {
+								$('#reseller_new').text(newReseller);
+								$('#reseller_new').show();
+							} else {
+								$('#reseller_new').hide();
+							}
+						}
+						if ($("#product_sell_new").length) {
+							if (parseInt(newOrder) > 0) {
+								$("#product_sell_new").text(newOrder);
+								$("#product_sell_new").show();
+							} else {
+								$("#product_sell_new").hide();
+							}
+
+						}
+						if ($("#rating_new").length) {
+							if (parseInt(newComment) > 0) {
+								$("#rating_new").text(newComment);
+								$("#rating_new").show();
+							} else {
+								$("#rating_new").hide();
+							}
+
+						}
+
+						if ($("#product_presell_new").length) {
+							if (parseInt(newWating) > 0) {
+								$("#product_presell_new").text(newWating);
+								$("#product_presell_new").show();
+
+							} else {
+								$("#product_presell_new").hide();
+							}
+						}
+						if ($("#service_sell_new").length) {
+							if (parseInt(newService) > 0) {
+								$("#service_sell_new").text(newService);
+								$("#service_sell_new").show();
+
+							} else {
+								$("#service_sell_new").hide();
+							}
+						}
+						if ($("#dispute_new").length) {
+							if (parseInt(disputeSum) > 0) {
+								$("#dispute_new").text(disputeSum);
+								$("#dispute_new").show();
+
+							} else {
+								$("#dispute_new").hide();
+							}
+						}
+
+
+
+					}
+
+				},
+				error: function () {
+					out_session2++;
+				}
+			});
+		}
+		function refeshTitle() {
+			if (!new_mess && !new_order) {
+				document.title = old_title;
+			} else {
+				new_title = "Bạn có tin nhắn mới - Tạp Hóa MMO";
+				if (document.title == old_title) {
+					document.title = new_title;
+				} else {
+					document.title = old_title;
+				}
+
+			}
+
+
+		}
+		$(document).ready(function () {
+			old_title = document.title;
+			checkFullNoff();
+			setInterval(function () { checkFullNoff(); }, 20000);
+			setInterval(function () { refeshTitle(); }, 2000);
+
+
+		});
+
+
+
+	</script>
+
+
+
+
+	<div class="flatpickr-calendar animate showTimeInput flatpickr-monthSelect-theme-light" tabindex="-1">
+		<div class="flatpickr-months"><span class="flatpickr-prev-month"><svg version="1.1"
+					xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 17">
+					<g></g>
+					<path d="M5.207 8.471l7.146 7.147-0.707 0.707-7.853-7.854 7.854-7.853 0.707 0.707-7.147 7.146z">
+					</path>
+				</svg></span>
+			<div class="flatpickr-month">
+				<div class="flatpickr-current-month">
+					<div class="numInputWrapper"><input class="numInput cur-year" type="number" tabindex="-1"
+							aria-label="Year"><span class="arrowUp"></span><span class="arrowDown"></span></div>
+				</div>
+			</div><span class="flatpickr-next-month"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 17">
+					<g></g>
+					<path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z">
+					</path>
+				</svg></span>
+		</div>
+		<div class="flatpickr-innerContainer">
+			<div class="flatpickr-rContainer">
+				<div class="flatpickr-monthSelect-months" tabindex="-1"><span class="flatpickr-monthSelect-month"
+						tabindex="-1">Jan</span><span class="flatpickr-monthSelect-month" tabindex="-1">Feb</span><span
+						class="flatpickr-monthSelect-month" tabindex="-1">Mar</span><span
+						class="flatpickr-monthSelect-month selected" tabindex="-1">Apr</span><span
+						class="flatpickr-monthSelect-month" tabindex="-1">May</span><span
+						class="flatpickr-monthSelect-month" tabindex="-1">Jun</span><span
+						class="flatpickr-monthSelect-month" tabindex="-1">Jul</span><span
+						class="flatpickr-monthSelect-month" tabindex="-1">Aug</span><span
+						class="flatpickr-monthSelect-month" tabindex="-1">Sep</span><span
+						class="flatpickr-monthSelect-month" tabindex="-1">Oct</span><span
+						class="flatpickr-monthSelect-month" tabindex="-1">Nov</span><span
+						class="flatpickr-monthSelect-month" tabindex="-1">Dec</span></div>
+			</div>
+		</div>
+	</div><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
+</body>
+
+</html>
