@@ -1,3 +1,4 @@
+<link href="./view/assets/css/style.css" rel="stylesheet">
 	<!-- site__footer -->
     <footer class="site__footer">
 	<div id="site_footer" class="site-footer">
@@ -34,7 +35,7 @@
 							<h5 class="footer-newsletter__title">Đăng ký bán hàng</h5>
 							<div class="footer-newsletter__text">Tạo một gian hàng của bạn trên trang của chúng tôi. Đội ngũ hỗ trợ sẽ liên lạc để giúp bạn tối ưu khả năng bán hàng.</div>
 							<div>
-								<a rel="nofollow" class="footer-newsletter__form-button btn btn-primary" href="https://taphoammo.net/register.html" style="background-color:#21bf73; color: #fff;">Tham gia</a>
+								<a rel="nofollow" class="footer-newsletter__form-button btn btn-primary" href="https://taphoammo.net/register.html" style="background-color:#0866ff; color: #fff;">Tham gia</a>
 							</div>
 							<div class="footer-newsletter__text footer-newsletter__text--social">Theo dõi chúng tôi trên mạng xã hội</div>
 							<!-- social-links -->
@@ -63,8 +64,8 @@
 				</div>
 			</div>
 			<div class="site-footer__bottom">
-				<div class="site-footer__copyright">
-					<a rel="nofollow" target="_blank" href="https://fb.com/taphoammo"> <b>All rights reserved:</b></a>
+				<div class="site-footer__copyright" style="color: #0866ff !important;">
+				<a rel="nofollow" target="_blank" href="https://fb.com/taphoammo"> <b>All rights reserved:</b></a>
 					<a rel="nofollow" target="_blank" href="https://fb.com/taphoammo"> <b>HCT DIGITAL TECHNOLOGY DEVELOPMENT COMPANY LIMITED</b></a>
 				</div>
 			</div>
@@ -99,6 +100,11 @@
     		overflow: hidden;
     		display:none
 		}
+		.site-footer__copyright a{
+			
+  color: #0866ff !important;
+}
+		
       </style>
       <div id="super_note" class="super_note" style="display: none; width: 350px;">
       		<div class="row">

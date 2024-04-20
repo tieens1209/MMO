@@ -1,3 +1,18 @@
+<link href="./view/assets/css/style.css" rel="stylesheet">
+<style>
+			[dir=ltr] .totop__button {
+  background: #0866ff !important;
+}
+
+span#readMoreBtn {
+  background: #0866ff !important;
+}
+
+
+div#description {
+  border: 1px solid #0866ff !important;
+}
+</style>
 <div class="site__body">
 			<div class="holder" style="display: none;"><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 			</div>

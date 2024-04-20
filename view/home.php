@@ -1,3 +1,4 @@
+<link href="./view/assets/css/style.css" rel="stylesheet">
 		<div class="site__body">
 			<div class="holder" style="display: none;">
 				<div class="preloader">
@@ -16,7 +17,7 @@
 
 			<style>
 				.subheading {
-					color: #21bf73;
+					color: #0866ff;
 					font-size: 20px;
 					font-weight: 600;
 					letter-spacing: 2px;
@@ -28,7 +29,7 @@
 				}
 
 				.services {
-					border: 1px solid #21bf73;
+					border: 1px solid #0866ff;
 					margin-bottom: 40px;
 					margin-right: 10px;
 					;
@@ -140,7 +141,7 @@
 								</div>
 
 								<button type="button" onclick="doSearch()" class="block-finder__button btn btn-primary"
-									style="background-color:#21bf73;">Tìm kiếm</button>
+									style="background-color:#0866ff;">Tìm kiếm</button>
 							</div>
 						</div>
 					</div>
@@ -156,6 +157,11 @@
 							<div class="block-features__icon" style="height:100px;width:100px;">
 								<a href="?act=email"><img src="./view/assets/images/mail.png"></a>
 							</div>
+							<style>
+								.block-features__title a{
+									color:#0866ff !important;
+								}
+							</style>
 							<div class="block-features__content">
 								<div class="block-features__title" style="font-size: 22px;line-height: 40px;">
 									<h3><a style="font-size: 22px;"
@@ -378,7 +384,7 @@
 						</div>
 					</div>
 					<center style="padding:0px; margin-top: -45px;"><a onclick="readMore()"><span id="readMoreBtn"
-								style="background-color: #21bf73; cursor: pointer;" class="badge badge-info">Xem
+								style="background-color: #0866ff; cursor: pointer;" class="badge badge-info">Xem
 								thêm</span></a></center>
 				</div>
 			</div>

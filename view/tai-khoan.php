@@ -1,3 +1,4 @@
+	
 		<div class="site__body">
 			<div class="holder" style="display: none;">
 				<div class="preloader">
@@ -17,6 +18,7 @@
 			<script src="./view/assets/js/jquery.min.js"></script>
 			<script src="./view/assets/js/feather.min.js"></script>
 			<script src="./view/assets/js/script.min.js"></script>
+			<link href="./view/assets/css/style.css" rel="stylesheet">
 			<style>
 				.services {
 					border: 1px solid #21bf73;
@@ -31,12 +33,24 @@
 					-ms-transition: all 0.3s ease;
 					transition: all 0.3s ease;
 				}
-
+	
 				.product-tabs__item {
 					padding: 11px 22px !important;
 					font-size: 1rem;
 					cursor: pointer;
 				}
+				[dir=ltr] .totop__button {
+  background: #0866ff !important;
+}
+
+span#readMoreBtn {
+  background: #0866ff !important;
+}
+
+
+div#description {
+  border: 1px solid #0866ff !important;
+}
 			</style>
 			<div>&nbsp;</div>
 			<div class="container_fix">

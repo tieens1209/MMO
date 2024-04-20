@@ -25,13 +25,13 @@
 }
 
 .flatpickr-monthSelect-month.disabled {
-	color: #eee;
+  color: #eee;
 }
 
 .flatpickr-monthSelect-month.disabled:hover,
 .flatpickr-monthSelect-month.disabled:focus {
-	cursor: not-allowed;
-	background: none !important;
+  cursor: not-allowed;
+  background: none !important;
 }
 
 .flatpickr-monthSelect-theme-dark {
@@ -76,4 +76,8 @@
   box-shadow: none;
   color: #fff;
   border-color: #80cbc4;
+}
+
+.btn-success {
+  background-color: #0866ff !important;
 }

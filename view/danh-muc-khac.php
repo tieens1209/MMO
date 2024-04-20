@@ -1,3 +1,4 @@
+<link href="./view/assets/css/style.css" rel="stylesheet">
 <div class="site__body">
 			<div class="holder" style="display: none;"><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 			</div>
@@ -23,8 +24,23 @@
 			padding: 11px 22px !important;
 			font-size: 1rem;
 			cursor: pointer;
+			
 		}
+		button.btn.btn-primary.btn-sm {
+    background-color: #0866ff;
+}
+[dir=ltr] .totop__button {
+  background: #0866ff !important;
+}
 
+span#readMoreBtn {
+  background: #0866ff !important;
+}
+
+
+div#description {
+  border: 1px solid #0866ff !important;
+}
 	</style>
 	<div>&nbsp;</div>
 	<div class="container_fix">
@@ -41,6 +57,9 @@
 								</svg>
 							</button>
 						</div>
+						<style>
+
+						</style>
 						<div class="block-sidebar__item">
 							<div class="widget-filters widget widget-filters--offcanvas--mobile" data-collapse="" data-collapse-opened-class="filter--opened">
 								<h4 class="widget-filters__title widget__title">Bộ lọc</h4>

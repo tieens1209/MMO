@@ -1,3 +1,5 @@
+
+<link href="./view/assets/css/style.css" rel="stylesheet">
 <div class="site__body">
 			<div class="holder" style="display: none;"><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 			</div>

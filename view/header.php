@@ -9,7 +9,7 @@
 	<meta name="_csrf" content="a9e690c8-55d6-4b77-8903-132bab5f304d">
 	<!-- default header name is X-CSRF-TOKEN -->
 	<meta name="_csrf_header" content="X-CSRF-TOKEN">
-
+    <link href="./view/assets/css/style.css" rel="stylesheet">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" type="image/png" href="https://taphoammo.net/images/logo/logo.jpg">
@@ -470,7 +470,7 @@
 									<a class="topbar-link">Hỗ trợ trực tuyến:</a>
 								</div>
 								<div class="topbar__item topbar__item--link">
-									<a target="_blank" href="https://fb.com/taphoammo" class="topbar-link" style="color: #21bf73;">
+									<a target="_blank" href="https://fb.com/taphoammo" class="topbar-link" style="color: #0866ff;">
 										<i class="footer-contacts__icon fab fa-facebook"></i>Tạp hóa MMO
 									</a>
 								</div>
@@ -531,12 +531,12 @@
 				<!-- .topbar / end -->
 
 				<div class="site-header__nav-panel">
-					<div class="nav-panel nav-panel--sticky" data-sticky-mode="pullToShow" style="background: rgb(33, 191, 115);">
+					<div class="nav-panel nav-panel--sticky" data-sticky-mode="pullToShow" style="background: #0866ff">
 						<div class="nav-panel__container container_fix">
 							<div class="nav-panel__row">
 								<div class="nav-panel__logo">
 									<a href="?act=home">
-										<img src="./view/assets/images/logo1.png" alt="Logo" height="45">
+										<img src="./view/assets/images/logo1-removebg-preview.png" alt="Logo" height="45">
 									</a>
 								</div>
 								<!-- .nav-links -->

@@ -52,7 +52,7 @@
     <div class="sidebar">
         <!-- Sidebar header -->
         <div class="sidebar-header">
-            <a href="https://taphoammo.net/" target="_blank" class="logo">
+            <a href="../index.php" target="_blank" class="logo">
                 <img src="./assets/images/logo.svg" alt="Logo" id="main-logo">
                 taphoammo.net
             </a>
