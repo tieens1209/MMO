@@ -3,85 +3,87 @@ ob_start();
 session_start();
 
 
-include "./view/header.php";
+
+include $_SERVER['DOCUMENT_ROOT'].'/'.$domain.'/views/layouts/view/header.php';
 
 if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
     $act = $_GET['act'];
     switch ($act) {
 
         case 'home':
-            include "./view/home.php";
+            include "/views/pages/home.php";
             break;
         case 'login':
-            include "./view/login.php";
+            include "/views/pages/login.php";
             break;
         case 'faq':
-            include "./view/faq.php";
+            include "/views/pages/faq.php";
             break;
         case 'addFunds':
-            include "./view/addFunds.php";
+            include "/views/pages/addFunds.php";
             break;
         case 'register':
-            include "./view/register.php";
+            include "/views/pages/register.php";
             break;
         case 'thong-tin':
-            include "./view/thong-tin.php";
+            include "/views/pages/thong-tin.php";
             break;
         case 'orders-buy':
-            include "./view/orders-buy.php";
+            include "/views/pages/orders-buy.php";
             break;
         case 'payments':
-            include "./view/payments.php";
+            include "/views/pages/payments.php";
             break;
         case 'change-password':
-            include "./view/change-password.php";
+            include "/views/pages/change-password.php";
             break;
         case 'chat-box':
-            include "./view/chat-box.php";
+            include "/views/pages/chat-box.php";
             break;
         case 'tai-khoan':
-            include "./view/tai-khoan.php";
+            include "/views/pages/tai-khoan.php";
             break;
         case 'support':
-            include "./view/support.php";
+            include "/views/pages/support.php";
             break;
         case 'list':
-            include "./view/list.php";
+            include "/views/pages/list.php";
             break;
         case 'email':
-            include "./view/email.php";
+            include "/views/pages/email.php";
             break;
         case 'phan-mem':
-            include "./view/phan-mem.php";
+            include "/views/pages/phan-mem.php";
             break;
         case 'danh-muc-khac':
-            include "./view/danh-muc-khac.php";
+            include "/views/pages/danh-muc-khac.php";
             break;
         case 'dich-vu-tuong-tac':
-            include "./view/dich-vu-tuong-tac.php";
+            include "/views/pages/dich-vu-tuong-tac.php";
             break;
         case 'dich-vu-phan-mem':
-            include "./view/dich-vu-phan-mem.php";
+            include "/views/pages/dich-vu-phan-mem.php";
             break;
         case 'dich-vu-blockchain':
-            include "./view/dich-vu-blockchain.php";
+            include "/views/pages/dich-vu-blockchain.php";
             break;
         case 'dich-vu-khac':
-            include "./view/dich-vu-khac.php";
+            include "/views/pages/dich-vu-khac.php";
             break;
         case '2FA':
-            include "./view/2FA.php";
+            include "/views/pages/2FA.php";
             break;
         case 'check-live-facebook':
-            include "./view/check-live-facebook.php";
+            include "/views/pages/check-live-facebook.php";
             break;
 
         default:
-            include "./view/home.php";
+            include "/views/pages/home.php";
             break;
     }
 } else {
-    include "./view/home.php";
+    include "/view/pages/home.php";
 }
-include "./view/footer.php";
+
+include $_SERVER['DOCUMENT_ROOT'].'/'.$domain.'/views/layouts/view/footer.php';
 ob_end_flush();
