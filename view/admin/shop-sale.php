@@ -115,7 +115,7 @@
 	</script>
 </div>
 	
-	<script src="./assets/js/Chart.min.js"></script>
+	<script src="assets/js/Chart.min.js"></script>
 	<script type="text/javascript">
 		$(() => {
 			document.getElementById("dashboard").className += " active";

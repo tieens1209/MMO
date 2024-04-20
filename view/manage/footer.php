@@ -3,19 +3,19 @@
 
 <!-- Main Scripts -->
 
-<script src="./assets/js/bootstrap.bundle.min.js"></script>
-<script src="./assets/js/simplebar.min.js"></script>
-<script src="./assets/js/feather.min.js"></script>
-<script src="./assets/js/script.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/simplebar.min.js"></script>
+<script src="assets/js/feather.min.js"></script>
+<script src="assets/js/script.min.js"></script>
 <div class="sidebar-backdrop" id="sidebarBackdrop" data-toggle="sidebar"></div>
 
 <!-- Plugins -->
-<script src="./assets/js/jquery.dataTables.bootstrap4.responsive.min.js"></script>
-<script src="./assets/js/sweetalert.min.js"></script>
-<script src="./assets/js/index.js"></script>
-<script src="./assets/js/flatpickr.min.js"></script>
+<script src="assets/js/jquery.dataTables.bootstrap4.responsive.min.js"></script>
+<script src="assets/js/sweetalert.min.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/flatpickr.min.js"></script>
 
-<script type="text/javascript" src="./assets/js/nicEdit.js"></script>
+<script type="text/javascript" src="assets/js/nicEdit.js"></script>
 <script type="text/javascript">
     bkLib.onDomLoaded(function() {
         nicEditors.allTextAreas()
@@ -41,7 +41,7 @@
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="./assets/js/js(1)"></script>
+<script async="" src="assets/js/js(1)"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -112,13 +112,6 @@
                     var newService = rsArr[5];
                     var disputeSum = rsArr[6];
                     var newMessage = rsArr[7];
-                    // var newSeller = rsArr[2];
-                    // var newReseller = rsArr[3];
-                    // var newTopup = rsArr[4];
-                    // var newWating = rsArr[5];
-                    // var newService = rsArr[6];
-                    // var disputeSum = rsArr[7];
-                    // var newMessage = rsArr[8];
 
                     if (newMessage > 0) {
                         new_mess = true;

@@ -591,7 +591,7 @@
     </div>
 
 
-    <script src="./assets/js/bbcode.js"></script>
+    <script src="assets/js/bbcode.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropper/2.3.4/cropper.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/0.8.1/cropper.min.js"></script>
 

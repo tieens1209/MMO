@@ -12,32 +12,32 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Font & Icon -->
-    <link rel="stylesheet" href="./assets/css/inter.min.css" id="font-css">
-    <link rel="stylesheet" href="./assets/css/material-design-icons.min.css">
-    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/inter.min.css" id="font-css">
+    <link rel="stylesheet" href="assets/css/material-design-icons.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <!-- Plugins -->
-    <link rel="stylesheet" href="./assets/css/jqvmap.min.css">
-    <link rel="stylesheet" href="./assets/css/flatpickr.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" href="./assets/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="assets/css/jqvmap.min.css">
+    <link rel="stylesheet" href="assets/css/flatpickr.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="assets/css/responsive.bootstrap4.min.css">
 
     <!-- Main Style -->
-    <link rel="stylesheet" href="./assets/css/simplebar.min.css">
-    <link rel="stylesheet" href="./assets/css/style.min.css" id="main-css">
-    <link rel="stylesheet" href="./assets/css/sidebar-royal.min.css" id="theme-css">
-    <link rel="stylesheet" href="./assets/css/default.min.css">
-    <link rel="stylesheet" href="./assets/css/sweetalert.css">
+    <link rel="stylesheet" href="assets/css/simplebar.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css" id="main-css">
+    <link rel="stylesheet" href="assets/css/sidebar-royal.min.css" id="theme-css">
+    <link rel="stylesheet" href="assets/css/default.min.css">
+    <link rel="stylesheet" href="assets/css/sweetalert.css">
 
-    <script type="text/javascript" async="" src="./assets/js/analytics.js"></script>
-    <script type="text/javascript" async="" src="./assets/js/js"></script>
-    <script src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" async="" src="assets/js/analytics.js"></script>
+    <script type="text/javascript" async="" src="assets/js/js"></script>
+    <script src="assets/js/jquery.min.js"></script>
 
-    <script src="./assets/js/sceditor.min.js"></script>
+    <script src="assets/js/sceditor.min.js"></script>
 
     <link rel="icon" type="image/png" href="https://taphoammo.net/images/logo/logo.jpg">
     <link rel="icon" href="https://taphoammo.net/images/icon/favicon.ico" type="image/ico">
-    <script src="./assets/js/moment.min.js"></script>
+    <script src="assets/js/moment.min.js"></script>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -53,7 +53,7 @@
         <!-- Sidebar header -->
         <div class="sidebar-header">
             <a href="https://taphoammo.net/" target="_blank" class="logo">
-                <img src="./assets/images/logo.svg" alt="Logo" id="main-logo">
+                <img src="assets/images/logo.svg" alt="Logo" id="main-logo">
                 ADMIN
             </a>
             <a href="https://taphoammo.net/shop.html#" class="nav-link nav-icon rounded-circle ml-auto" data-toggle="sidebar">
@@ -155,12 +155,12 @@
                 </li>
                 <li class="nav-item dropdown ml-2">
                     <a class="nav-link nav-link-faded rounded nav-link-img dropdown-toggle px-2" href="https://taphoammo.net/shop.html#" data-toggle="dropdown" data-display="static">
-                        <img src="./assets/images/user.svg" alt="Admin" class="rounded-circle mr-2">
+                        <img src="assets/images/user.svg" alt="Admin" class="rounded-circle mr-2">
                         <span class="d-none d-sm-block">arturo_59g7tb</span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right pt-0 overflow-hidden">
                         <div class="media align-items-center bg-primary text-white px-4 py-3 mb-2">
-                            <img src="./assets/images/user.svg" alt="Admin" class="rounded-circle" width="50" height="50">
+                            <img src="assets/images/user.svg" alt="Admin" class="rounded-circle" width="50" height="50">
                             <div class="media-body ml-2 text-nowrap">
                                 <h6 class="mb-0">arturo_59g7tb</h6>
                                 <!--<span class="text-gray-400 font-size-sm">Administrator</span>-->
