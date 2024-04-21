@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<div style="color: #1a202c; font-size: 15px;" class="divider-text">KINH DOANH THÁNG 04/2024</div>
+
+<div class="row text-center">
+	<div class="col-sm-5 mb-1"></div>
+	<div class="col-sm-2 mb-1">
+		<input onchange="loadSaleMonth()" id="month" type="text" value="04/2024" class="form-control monthpicker" placeholder="Chọn tháng">
+	</div>
+</div>
+<div class="row row-cols-2 row-cols-lg-4 gutters-sm">
+	<!-- Unique Visitors -->
+	<div class="col mb-3">
+		<div class="card">
+			<div class="card-body">
+				<h6 class="card-title text-secondary font-size-sm">Số đơn hàng</h6>
+				<div class="d-flex align-items-center mb-1">
+					<i data-feather="pie-chart" class="mr-2"></i>
+					<h3 class="mb-0 mr-2">0</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Unique Visitors -->
+		
+		<!-- New Orders -->
+		<div class="col mb-3">
+			<div class="card">
+				<div class="card-body">
+					<h6 class="card-title text-secondary font-size-sm">Doanh số</h6>
+					<div class="d-flex align-items-center mb-1">
+						<i data-feather="shopping-bag" class="mr-2"></i>
+						<h3 class="mb-0 mr-2">0</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- New Orders -->
+		<div class="col mb-3">
+			<div class="card">
+				<div class="card-body">
+					<h6 class="card-title text-secondary font-size-sm">Sàn tạm giữ</h6>
+					<div class="d-flex align-items-center mb-1">
+						<i data-feather="shopping-bag" class="mr-2"></i>
+						<h3 class="mb-0 mr-2">0</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /New Orders -->
+	</div>
+	<script type="text/javascript">
+		$(() => {
+		// Month Picker
+	      flatpickr('.monthpicker', {
+	        plugins: [
+	          new monthSelectPlugin({
+	            shorthand: true,
+	            dateFormat: 'm/Y',
+	            altFormat: 'm/Y',
+	          })
+	        ]
+	      })
+      })
+	</script>
+</html>
