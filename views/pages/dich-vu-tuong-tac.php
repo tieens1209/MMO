@@ -1,4 +1,4 @@
-<link href="./view/assets/css/style.css" rel="stylesheet">
+
 <div class="site__body">
 			<div class="holder" style="display: none;"><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 			</div>
@@ -152,7 +152,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823">
-														<img style="width: 100%" src="./view/assets/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
+														<img style="width: 100%" src="./public/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -184,7 +184,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666">
-														<img style="width: 100%" src="./view/assets/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
+														<img style="width: 100%" src="./public/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -216,7 +216,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139">
-														<img style="width: 100%" src="./view/assets/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
+														<img style="width: 100%" src="./public/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -248,7 +248,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
+														<img style="width: 100%" src="./public/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -280,7 +280,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630">
-														<img style="width: 100%" src="./view/assets/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
+														<img style="width: 100%" src="./public/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -312,7 +312,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
+														<img style="width: 100%" src="./public/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -344,7 +344,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/kinh-nghiem-tiktok-beta-global_693559">
-														<img style="width: 100%" src="./view/assets/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
+														<img style="width: 100%" src="./public/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -376,7 +376,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490">
-														<img style="width: 100%" src="./view/assets/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
+														<img style="width: 100%" src="./public/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -478,7 +478,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tang-follow-facebook_562650" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tang-follow-facebook_562650226.png" alt="Dich Vu S Facebook">
+													<img class="product-image__img" src="./public/images/tang-follow-facebook_562650226.png" alt="Dich Vu S Facebook">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -557,7 +557,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-tang-follow-twitter-tw-viet-theo-yeu-cau_684876" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-tang-follow-twitter-tw-viet-theo-yeu-cau_684876.png" alt="Dịch vụ tăng Follow Twitter (TW Việt) theo yêu cầu">
+													<img class="product-image__img" src="./public/images/dich-vu-tang-follow-twitter-tw-viet-theo-yeu-cau_684876.png" alt="Dịch vụ tăng Follow Twitter (TW Việt) theo yêu cầu">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">9.999 đ</div>
@@ -633,7 +633,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/buff-sieu-toc-view-50k-followers-60k-bh-15ngay-x-twitter-bao-bkt_950070" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/buff-sieu-toc-view-50k-followers-60k-bh-15ngay-x-twitter-bao-bkt_950070.png" alt="Update 28/03 - Buff fl, view Twitter - X 30k ">
+													<img class="product-image__img" src="./public/images/buff-sieu-toc-view-50k-followers-60k-bh-15ngay-x-twitter-bao-bkt_950070.png" alt="Update 28/03 - Buff fl, view Twitter - X 30k ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">7.000 đ - 90.000 đ</div>
@@ -706,7 +706,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nang-cap-chinh-chu-youtube-preminum-gia-re_946802" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nang-cap-chinh-chu-youtube-preminum-gia-re_946802981.png" alt="Nâng cấp chính chủ Youtube preminum giá rẻ ">
+													<img class="product-image__img" src="./public/images/nang-cap-chinh-chu-youtube-preminum-gia-re_946802981.png" alt="Nâng cấp chính chủ Youtube preminum giá rẻ ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">29.999 đ - 269.999 đ</div>
@@ -784,7 +784,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/follow-twitter-nft-1-follow-nft-90_276096" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/follow-twitter-nft-1-follow-nft-90_276096.png" alt="Follow Twitter NFT - Like NFT - Retweet NFT Crypto">
+													<img class="product-image__img" src="./public/images/follow-twitter-nft-1-follow-nft-90_276096.png" alt="Follow Twitter NFT - Like NFT - Retweet NFT Crypto">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">20 đ - 55.000 đ</div>
@@ -860,7 +860,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tang-follow-twitter-chat-luong-cao_562040" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tang-follow-twitter-chat-luong-cao_562040167.png" alt="Tăng FOLLOW Twitter Chất Lượng Cao">
+													<img class="product-image__img" src="./public/images/tang-follow-twitter-chat-luong-cao_562040167.png" alt="Tăng FOLLOW Twitter Chất Lượng Cao">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">99 đ - 109.000 đ</div>
@@ -936,7 +936,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/len-tich-xanh-twitter-chat-luong-build-twitter-gia-re_182814" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/len-tich-xanh-twitter-chat-luong-build-twitter-gia-re_182814.png" alt="Lên Tích Xanh Twitter chất lượng - Build Twitter giá rẻ">
+													<img class="product-image__img" src="./public/images/len-tich-xanh-twitter-chat-luong-build-twitter-gia-re_182814.png" alt="Lên Tích Xanh Twitter chất lượng - Build Twitter giá rẻ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">95.000 đ - 130.000 đ</div>
@@ -1012,7 +1012,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-twitter-chat-luong-gia-tot-24-7_655562" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-twitter-chat-luong-gia-tot-24-7_655562.png" alt="Dịch Vụ Twitter Chất Lượng Giá Tốt 24/7">
+													<img class="product-image__img" src="./public/images/dich-vu-twitter-chat-luong-gia-tot-24-7_655562.png" alt="Dịch Vụ Twitter Chất Lượng Giá Tốt 24/7">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">50.000 đ</div>
@@ -1080,7 +1080,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nang-cap-telegram-premium-1-nam-chinh-chu_322043" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nang-cap-telegram-premium-1-nam-chinh-chu_322043.png" alt="Nâng cấp Telegram Premium 1 năm chính chủ">
+													<img class="product-image__img" src="./public/images/nang-cap-telegram-premium-1-nam-chinh-chu_322043.png" alt="Nâng cấp Telegram Premium 1 năm chính chủ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">470.000 đ</div>
@@ -1156,7 +1156,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tang-follow-twitter_533646" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tang-follow-twitter_533646.png" alt="Tăng Follow Twitter Chất Lượng">
+													<img class="product-image__img" src="./public/images/tang-follow-twitter_533646.png" alt="Tăng Follow Twitter Chất Lượng">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">60 đ - 100.000 đ</div>
@@ -1232,7 +1232,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-chay-4000-gio-xem-1000-luot-ang-ky-youtube-gia-sieu-re_939353" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-chay-4000-gio-xem-1000-luot-ang-ky-youtube-gia-sieu-re_939353945.png" alt="DỊCH VỤ TĂNG TƯƠNG TÁC YOUTUBE GIÁ SIÊU RẺ">
+													<img class="product-image__img" src="./public/images/dich-vu-chay-4000-gio-xem-1000-luot-ang-ky-youtube-gia-sieu-re_939353945.png" alt="DỊCH VỤ TĂNG TƯƠNG TÁC YOUTUBE GIÁ SIÊU RẺ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -1308,7 +1308,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tang-tuong-tac-facebook-gia-re-nhat-vn" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tang-tuong-tac-facebook-gia-re-nhat-vn10.png" alt="TƯƠNG TÁC FACEBOOK GIÁ RẺ CHẤT LƯỢNG (24/7)">
+													<img class="product-image__img" src="./public/images/tang-tuong-tac-facebook-gia-re-nhat-vn10.png" alt="TƯƠNG TÁC FACEBOOK GIÁ RẺ CHẤT LƯỢNG (24/7)">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">18 đ - 800 đ</div>
@@ -1384,7 +1384,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-tang-500-follower-va-5m-view-tinh-analytic-twitter-bat-kiem-tien-bao-hanh-30-ngay-350k_812618" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-tang-500-follower-va-5m-view-tinh-analytic-twitter-bat-kiem-tien-bao-hanh-30-ngay-350k_812618141.png" alt="DỊCH VỤ tăng Follower và 5M view tính Analytic bật kiếm tiền - bảo hành 30 ngày ">
+													<img class="product-image__img" src="./public/images/dich-vu-tang-500-follower-va-5m-view-tinh-analytic-twitter-bat-kiem-tien-bao-hanh-30-ngay-350k_812618141.png" alt="DỊCH VỤ tăng Follower và 5M view tính Analytic bật kiếm tiền - bảo hành 30 ngày ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">45.000 đ - 50.000 đ</div>
@@ -1460,7 +1460,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/goi-bat-kiem-tien-twitter-x-re-chat-luong-bao-hanh-30-ngay-sale-off-5_905602" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/goi-bat-kiem-tien-twitter-x-re-chat-luong-bao-hanh-30-ngay-sale-off-5_905602923.png" alt="Gói Bật Kiếm Tiền Twitter X (Rẻ-Chất lượng)">
+													<img class="product-image__img" src="./public/images/goi-bat-kiem-tien-twitter-x-re-chat-luong-bao-hanh-30-ngay-sale-off-5_905602923.png" alt="Gói Bật Kiếm Tiền Twitter X (Rẻ-Chất lượng)">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">50 đ - 98.000 đ</div>
@@ -1528,7 +1528,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/chuyen-keo-member-telegram-group-channel-41k-1000-member_371984" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/chuyen-keo-member-telegram-group-channel-41k-1000-member_371984.png" alt="Chuyên Kéo Member Telegram Group/Channel ">
+													<img class="product-image__img" src="./public/images/chuyen-keo-member-telegram-group-channel-41k-1000-member_371984.png" alt="Chuyên Kéo Member Telegram Group/Channel ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">51 đ - 450.000 đ</div>
@@ -1596,7 +1596,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-tang-tuong-tac-youtube-gia-sieu-re-bao-hanh-uy-tin_385512" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-tang-tuong-tac-youtube-gia-sieu-re-bao-hanh-uy-tin_385512.png" alt="DỊCH VỤ TĂNG TƯƠNG TÁC YOUTUBE GIÁ SIÊU RẺ  BẢO HÀNH UY TÍN">
+													<img class="product-image__img" src="./public/images/dich-vu-tang-tuong-tac-youtube-gia-sieu-re-bao-hanh-uy-tin_385512.png" alt="DỊCH VỤ TĂNG TƯƠNG TÁC YOUTUBE GIÁ SIÊU RẺ  BẢO HÀNH UY TÍN">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">9.999 đ - 350.000 đ</div>
@@ -1674,7 +1674,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tuong-tac-facebook-gia-re-chat-luong-24-24_918562" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tuong-tac-facebook-gia-re-chat-luong-24-24_918562.png" alt="TƯƠNG TÁC FACEBOOK GIÁ SIÊU RẺ CHẤT LƯỢNG">
+													<img class="product-image__img" src="./public/images/tuong-tac-facebook-gia-re-chat-luong-24-24_918562.png" alt="TƯƠNG TÁC FACEBOOK GIÁ SIÊU RẺ CHẤT LƯỢNG">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">1.800 đ - 1.900 đ</div>
@@ -1742,7 +1742,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/member-group-viet-gia-re_668202" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/member-group-viet-gia-re_66820275.png" alt="Member group Việt-Like page-Theo dõi-Viplike (rẻ)">
+													<img class="product-image__img" src="./public/images/member-group-viet-gia-re_66820275.png" alt="Member group Việt-Like page-Theo dõi-Viplike (rẻ)">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">15 đ - 30 đ</div>
@@ -1818,7 +1818,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tang-tuong-tac-facebook-gia-re-uy-tin" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tang-tuong-tac-facebook-gia-re-uy-tin855.png" alt="Tăng Tương Tác Facebook Giá Rẻ Uy Tín 24/7">
+													<img class="product-image__img" src="./public/images/tang-tuong-tac-facebook-gia-re-uy-tin855.png" alt="Tăng Tương Tác Facebook Giá Rẻ Uy Tín 24/7">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">26 đ - 21.500 đ</div>
@@ -1886,7 +1886,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tang-tuong-tac-facebook-gia-bao-re_655154" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tang-tuong-tac-facebook-gia-bao-re_655154.png" alt="TĂNG TƯƠNG TÁC FACEBOOK GIÁ BAO RẺ">
+													<img class="product-image__img" src="./public/images/tang-tuong-tac-facebook-gia-bao-re_655154.png" alt="TĂNG TƯƠNG TÁC FACEBOOK GIÁ BAO RẺ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">12 đ - 100 đ</div>
@@ -1959,7 +1959,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tang-tuong-tac-tiktok-chat-luong-gia-re_150691" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tang-tuong-tac-tiktok-chat-luong-gia-re_150691.png" alt="TĂNG TƯƠNG TÁC TIKTOK CHẤT LƯỢNG GIÁ RẺ">
+													<img class="product-image__img" src="./public/images/tang-tuong-tac-tiktok-chat-luong-gia-re_150691.png" alt="TĂNG TƯƠNG TÁC TIKTOK CHẤT LƯỢNG GIÁ RẺ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">16 đ - 1.000 đ</div>
@@ -2035,7 +2035,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-tang-view-telegram-khong-gioi-han-so-luong-toc-o-cao_371984" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-tang-view-telegram-khong-gioi-han-so-luong-toc-o-cao_371984.png" alt="Dịch vụ Tăng View -  Telegram không giới hạn số lượng - Tốc độ cao">
+													<img class="product-image__img" src="./public/images/dich-vu-tang-view-telegram-khong-gioi-han-so-luong-toc-o-cao_371984.png" alt="Dịch vụ Tăng View -  Telegram không giới hạn số lượng - Tốc độ cao">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">600 đ - 200.000 đ</div>
@@ -2111,7 +2111,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/pay-tich-xanh-gia-re-100k_401427" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/pay-tich-xanh-gia-re-100k_401427.png" alt="pay tích xanh giá rẻ 90k">
+													<img class="product-image__img" src="./public/images/pay-tich-xanh-gia-re-100k_401427.png" alt="pay tích xanh giá rẻ 90k">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">30.000 đ - 240.000 đ</div>

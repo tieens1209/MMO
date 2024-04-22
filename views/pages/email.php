@@ -1,4 +1,4 @@
-<link href="./view/assets/css/style.css" rel="stylesheet">
+
 <div class="site__body">
 			<div class="holder" style="display: none;"><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 			</div>
@@ -137,7 +137,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823">
-														<img style="width: 100%" src="./view/assets/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
+														<img style="width: 100%" src="./public/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -169,7 +169,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666">
-														<img style="width: 100%" src="./view/assets/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
+														<img style="width: 100%" src="./public/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -201,7 +201,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139">
-														<img style="width: 100%" src="./view/assets/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
+														<img style="width: 100%" src="./public/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -233,7 +233,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
+														<img style="width: 100%" src="./public/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -265,7 +265,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630">
-														<img style="width: 100%" src="./view/assets/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
+														<img style="width: 100%" src="./public/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -297,7 +297,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
+														<img style="width: 100%" src="./public/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -329,7 +329,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/kinh-nghiem-tiktok-beta-global_693559">
-														<img style="width: 100%" src="./view/assets/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
+														<img style="width: 100%" src="./public/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -361,7 +361,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490">
-														<img style="width: 100%" src="./view/assets/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
+														<img style="width: 100%" src="./public/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -469,7 +469,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-usa-gmail-my-so-luong-lon_720513" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-usa-gmail-my-so-luong-lon_720513773.png" alt="Gmail USA - Gmail Mỹ số lượng lớn">
+													<img class="product-image__img" src="./public/images/gmail-usa-gmail-my-so-luong-lon_720513773.png" alt="Gmail USA - Gmail Mỹ số lượng lớn">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">544</span>
@@ -553,7 +553,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-2023-6-7-thang_740495" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-2023-6-7-thang_740495.png" alt="Gmail - Live trâu">
+													<img class="product-image__img" src="./public/images/gmail-2023-6-7-thang_740495.png" alt="Gmail - Live trâu">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">35548</span>
@@ -626,7 +626,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-ngoai-new-ios-random-ip-ngam-tren-14_728121" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-ngoai-new-ios-random-ip-ngam-tren-14_728121551.png" alt="Gmail NEW iOS Us và Ngoại. Chỉ bán min 30 cái">
+													<img class="product-image__img" src="./public/images/gmail-ngoai-new-ios-random-ip-ngam-tren-14_728121551.png" alt="Gmail NEW iOS Us và Ngoại. Chỉ bán min 30 cái">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">11669</span>
@@ -699,7 +699,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/xa-kho-gmail-ngam-lau-gia-re-nhat_303037" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/xa-kho-gmail-ngam-lau-gia-re-nhat_303037.png" alt="Xả Kho Gmail VN Ngâm Lâu Giá Rẻ">
+													<img class="product-image__img" src="./public/images/xa-kho-gmail-ngam-lau-gia-re-nhat_303037.png" alt="Xả Kho Gmail VN Ngâm Lâu Giá Rẻ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">144</span>
@@ -782,7 +782,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tai-khoan-mail-u-loai_959534" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tai-khoan-mail-u-loai_959534810.png" alt="Tài Khoản Mail Đủ Loại !!!">
+													<img class="product-image__img" src="./public/images/tai-khoan-mail-u-loai_959534810.png" alt="Tài Khoản Mail Đủ Loại !!!">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">84</span>
@@ -865,7 +865,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-ios-pc-a-tren-3-5-ngay" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-ios-pc-a-tren-3-5-ngay47.png" alt="Gmail PC / IOS - USA đã trên 7 - 30 ngày">
+													<img class="product-image__img" src="./public/images/gmail-ios-pc-a-tren-3-5-ngay47.png" alt="Gmail PC / IOS - USA đã trên 7 - 30 ngày">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">2812</span>
@@ -938,7 +938,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-eu-chat-luong-cao-inh-dang-mail-pass-mkp-pass-mkp-name_671957" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-eu-chat-luong-cao-inh-dang-mail-pass-mkp-pass-mkp-name_671957.png" alt="Gmail PC chưa dịch vụ, Random IP, EU IP(UK,DE,FR).">
+													<img class="product-image__img" src="./public/images/gmail-eu-chat-luong-cao-inh-dang-mail-pass-mkp-pass-mkp-name_671957.png" alt="Gmail PC chưa dịch vụ, Random IP, EU IP(UK,DE,FR).">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">16290</span>
@@ -1019,7 +1019,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-viet-trau_545637" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-viet-trau_545637529.png" alt="(Cho Thuê) Gmail">
+													<img class="product-image__img" src="./public/images/gmail-viet-trau_545637529.png" alt="(Cho Thuê) Gmail">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">2542</span>
@@ -1092,7 +1092,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-new-chua-qua-dich-vu-va-qua-dich-vu_269356" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-new-chua-qua-dich-vu-va-qua-dich-vu_269356.png" alt="Tài khoản Gmail chưa qua dịch vụ">
+													<img class="product-image__img" src="./public/images/gmail-new-chua-qua-dich-vu-va-qua-dich-vu_269356.png" alt="Tài khoản Gmail chưa qua dịch vụ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">718</span>
@@ -1173,7 +1173,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-co-2006-2021-old-gmail_350282" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-co-2006-2021-old-gmail_350282432.png" alt="Gmail Cổ 2006 - 2023 ( Old Gmail ) ">
+													<img class="product-image__img" src="./public/images/gmail-co-2006-2021-old-gmail_350282432.png" alt="Gmail Cổ 2006 - 2023 ( Old Gmail ) ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">2462</span>
@@ -1254,7 +1254,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-2021-a-qua-su-dung-live-trau_673733" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-2021-a-qua-su-dung-live-trau_67373388.png" alt="Gmail đã qua Dịch Vụ -  Live Trâu">
+													<img class="product-image__img" src="./public/images/gmail-2021-a-qua-su-dung-live-trau_67373388.png" alt="Gmail đã qua Dịch Vụ -  Live Trâu">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">1065</span>
@@ -1335,7 +1335,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-co-2016-2021-a-qua-ytb-sieu-khoe-bao-song_205159" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-co-2016-2021-a-qua-ytb-sieu-khoe-bao-song_205159442.png" alt="Gmail 2024 Loại Siêu Trâu Bò">
+													<img class="product-image__img" src="./public/images/gmail-co-2016-2021-a-qua-ytb-sieu-khoe-bao-song_205159442.png" alt="Gmail 2024 Loại Siêu Trâu Bò">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">1021</span>
@@ -1408,7 +1408,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-reg-tay-ios-viet-new_830138" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-reg-tay-ios-viet-new_830138.png" alt="Cho thuê Gmail sống 30ph (đuôi @gmail.com) ">
+													<img class="product-image__img" src="./public/images/gmail-reg-tay-ios-viet-new_830138.png" alt="Cho thuê Gmail sống 30ph (đuôi @gmail.com) ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">48</span>
@@ -1481,7 +1481,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-co-a-qua-youtube-2019-2022_671278" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-co-a-qua-youtube-2019-2022_67127823.png" alt="Gmail Cổ - Pre - New | Loại Trâu">
+													<img class="product-image__img" src="./public/images/gmail-co-a-qua-youtube-2019-2022_67127823.png" alt="Gmail Cổ - Pre - New | Loại Trâu">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">820</span>
@@ -1562,7 +1562,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-viet-2021-2022_204040" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-viet-2021-2022_204040.png" alt="GMAIL VIỆT  2021-2022">
+													<img class="product-image__img" src="./public/images/gmail-viet-2021-2022_204040.png" alt="GMAIL VIỆT  2021-2022">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">130</span>
@@ -1635,7 +1635,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-new-ios-country-theo-yeu-cau-3_728121" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-new-ios-country-theo-yeu-cau-3_728121.png" alt="Gmail New IOS, country theo yêu cầu 3">
+													<img class="product-image__img" src="./public/images/gmail-new-ios-country-theo-yeu-cau-3_728121.png" alt="Gmail New IOS, country theo yêu cầu 3">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">5172</span>
@@ -1705,7 +1705,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-edu-cho-thue-gia-re_394985" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-edu-cho-thue-gia-re_394985.png" alt="Gmail edu cho thuê ">
+													<img class="product-image__img" src="./public/images/gmail-edu-cho-thue-gia-re_394985.png" alt="Gmail edu cho thuê ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">4664</span>
@@ -1775,7 +1775,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-random-tu-2016-2020-gmail-pass-recovery_783809" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-random-tu-2016-2020-gmail-pass-recovery_783809756.png" alt="Email New chưa DV (SIÊU KHỎE)	">
+													<img class="product-image__img" src="./public/images/gmail-random-tu-2016-2020-gmail-pass-recovery_783809756.png" alt="Email New chưa DV (SIÊU KHỎE)	">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">601</span>
@@ -1848,7 +1848,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-new-ios-country-theo-yeu-cau-2_728121" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-new-ios-country-theo-yeu-cau-2_728121.png" alt="Gmail New IOS, country theo yêu cầu 2">
+													<img class="product-image__img" src="./public/images/gmail-new-ios-country-theo-yeu-cau-2_728121.png" alt="Gmail New IOS, country theo yêu cầu 2">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">721</span>
@@ -1918,7 +1918,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/gmail-2019-2022-a-qua-premium-6-7-thang_163200" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/gmail-2019-2022-a-qua-premium-6-7-thang_16320072.png" alt="Gmail 2019 2021 đã qua Premium . 6 - 7 tháng ">
+													<img class="product-image__img" src="./public/images/gmail-2019-2022-a-qua-premium-6-7-thang_16320072.png" alt="Gmail 2019 2021 đã qua Premium . 6 - 7 tháng ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">165</span>
@@ -1991,7 +1991,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/cho-thue-gmail-edu-72h_905413" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/cho-thue-gmail-edu-72h_905413.png" alt="Cho thuê GMAIL dịch vụ của GOOGLE">
+													<img class="product-image__img" src="./public/images/cho-thue-gmail-edu-72h_905413.png" alt="Cho thuê GMAIL dịch vụ của GOOGLE">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">10361</span>
@@ -2072,7 +2072,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/kenh-review-phim-kenh-xanh-3-dong-kenh-nhieu-video-funny-thu-cung_75867" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/kenh-review-phim-kenh-xanh-3-dong-kenh-nhieu-video-funny-thu-cung_75867.png" alt="Kênh Review Phim, Kênh Xanh 3 Dòng, Kênh nhiều video Funny Thú Cưng...">
+													<img class="product-image__img" src="./public/images/kenh-review-phim-kenh-xanh-3-dong-kenh-nhieu-video-funny-thu-cung_75867.png" alt="Kênh Review Phim, Kênh Xanh 3 Dòng, Kênh nhiều video Funny Thú Cưng...">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">15</span>
@@ -2145,7 +2145,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/used-gmail-cheap-over-5-days-old_280407" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/used-gmail-cheap-over-5-days-old_280407800.png" alt="Gmail, Cheap, over 5 days old...">
+													<img class="product-image__img" src="./public/images/used-gmail-cheap-over-5-days-old_280407800.png" alt="Gmail, Cheap, over 5 days old...">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">2913</span>

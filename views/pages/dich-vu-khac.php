@@ -1,4 +1,4 @@
-<link href="./view/assets/css/style.css" rel="stylesheet">
+
 <div class="site__body">
 			<div class="holder" style="display: none;"><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 			</div>
@@ -102,7 +102,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823">
-														<img style="width: 100%" src="./view/assets/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
+														<img style="width: 100%" src="./public/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -134,7 +134,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666">
-														<img style="width: 100%" src="./view/assets/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
+														<img style="width: 100%" src="./public/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -166,7 +166,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139">
-														<img style="width: 100%" src="./view/assets/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
+														<img style="width: 100%" src="./public/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -198,7 +198,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
+														<img style="width: 100%" src="./public/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -230,7 +230,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630">
-														<img style="width: 100%" src="./view/assets/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
+														<img style="width: 100%" src="./public/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -262,7 +262,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
+														<img style="width: 100%" src="./public/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -294,7 +294,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/kinh-nghiem-tiktok-beta-global_693559">
-														<img style="width: 100%" src="./view/assets/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
+														<img style="width: 100%" src="./public/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -326,7 +326,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490">
-														<img style="width: 100%" src="./view/assets/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
+														<img style="width: 100%" src="./public/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -420,7 +420,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/chatgpt-chinh-chu_209573" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/chatgpt-chinh-chu_209573926.png" alt="Capcut Pro siêu rẻ từ 7 - 70 ngày - 1 năm">
+													<img class="product-image__img" src="./public/images/chatgpt-chinh-chu_209573926.png" alt="Capcut Pro siêu rẻ từ 7 - 70 ngày - 1 năm">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">12.789 đ - 400.000 đ</div>
@@ -499,7 +499,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/proxy-ipv6-us-vn_496931" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/proxy-ipv6-us-vn_496931866.png" alt="Proxy v4 VN Private Tốc Độ Cao">
+													<img class="product-image__img" src="./public/images/proxy-ipv6-us-vn_496931866.png" alt="Proxy v4 VN Private Tốc Độ Cao">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">2.000 đ - 25.000 đ</div>
@@ -575,7 +575,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/proxy-dan-cu-ipv4-ipv6-proxy-dan-cu-xoay-ipv4_806831" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/proxy-dan-cu-ipv4-ipv6-proxy-dan-cu-xoay-ipv4_806831.png" alt="Proxy Việt Dân Cư IPV4, IPV6 - Proxy Xoay IPV4">
+													<img class="product-image__img" src="./public/images/proxy-dan-cu-ipv4-ipv6-proxy-dan-cu-xoay-ipv4_806831.png" alt="Proxy Việt Dân Cư IPV4, IPV6 - Proxy Xoay IPV4">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">25.000 đ - 80.000 đ</div>
@@ -643,7 +643,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/up-icloud-2tb-google-one-30tb-vinh-vien_503504" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/up-icloud-2tb-google-one-30tb-vinh-vien_503504.png" alt="Up iCloud 2TB , Google One 30TB vĩnh viễn">
+													<img class="product-image__img" src="./public/images/up-icloud-2tb-google-one-30tb-vinh-vien_503504.png" alt="Up iCloud 2TB , Google One 30TB vĩnh viễn">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">550.000 đ - 650.000 đ</div>
@@ -713,7 +713,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/capcut-pro-10k-1-nam-add-chinh-chu_454465" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/capcut-pro-10k-1-nam-add-chinh-chu_454465277.png" alt="CapCut Pro 10k/1 năm Add Chính Chủ">
+													<img class="product-image__img" src="./public/images/capcut-pro-10k-1-nam-add-chinh-chu_454465277.png" alt="CapCut Pro 10k/1 năm Add Chính Chủ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">99.999 đ - 499.999 đ</div>
@@ -791,7 +791,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/canva-pro-chinh-chu-vinh-vien-sale_313562" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/canva-pro-chinh-chu-vinh-vien-sale_313562.png" alt="Canva Pro chính chủ Trọn đời">
+													<img class="product-image__img" src="./public/images/canva-pro-chinh-chu-vinh-vien-sale_313562.png" alt="Canva Pro chính chủ Trọn đời">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">9.000 đ - 59.000 đ</div>
@@ -867,7 +867,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/youtube-premium-nang-cap-tu-mail-chinh-chu-bao-hanh-fulltime_312274" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/youtube-premium-nang-cap-tu-mail-chinh-chu-bao-hanh-fulltime_312274233.png" alt="Nâng Cấp Youtube Premium Bằng Mail Chính Chủ">
+													<img class="product-image__img" src="./public/images/youtube-premium-nang-cap-tu-mail-chinh-chu-bao-hanh-fulltime_312274233.png" alt="Nâng Cấp Youtube Premium Bằng Mail Chính Chủ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">20.000 đ - 200.000 đ</div>
@@ -932,7 +932,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/ip-v4-gia-re_891550" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/ip-v4-gia-re_891550937.png" alt="IPv4 giá rẻ">
+													<img class="product-image__img" src="./public/images/ip-v4-gia-re_891550937.png" alt="IPv4 giá rẻ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">2.000 đ - 1.500.000 đ</div>
@@ -1008,7 +1008,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/capcut-pro-chinh-chu-vinh-vien_531858" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/capcut-pro-chinh-chu-vinh-vien_531858.png" alt="CAPCUT PRO Chính chủ - Vĩnh viễn">
+													<img class="product-image__img" src="./public/images/capcut-pro-chinh-chu-vinh-vien_531858.png" alt="CAPCUT PRO Chính chủ - Vĩnh viễn">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">99.000 đ - 490.000 đ</div>
@@ -1084,7 +1084,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nang-cap-tai-khoan-canva-pro-edu-1-nam-bao-hanh-24-7_719370" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nang-cap-tai-khoan-canva-pro-edu-1-nam-bao-hanh-24-7_719370970.png" alt="NÂNG CẤP CANVA PRO CHÍNH CHỦ (HỖ TRỢ 24/7)⭐">
+													<img class="product-image__img" src="./public/images/nang-cap-tai-khoan-canva-pro-edu-1-nam-bao-hanh-24-7_719370970.png" alt="NÂNG CẤP CANVA PRO CHÍNH CHỦ (HỖ TRỢ 24/7)⭐">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">10.000 đ</div>
@@ -1152,7 +1152,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nang-cap-youtube-premium-vinh-vien_841502" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nang-cap-youtube-premium-vinh-vien_841502.png" alt="Nâng cấp YouTube Premium vĩnh viễn">
+													<img class="product-image__img" src="./public/images/nang-cap-youtube-premium-vinh-vien_841502.png" alt="Nâng cấp YouTube Premium vĩnh viễn">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">15.000 đ - 200.000 đ</div>
@@ -1228,7 +1228,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/pay-tick-gia-han-tick-cac-nuoc_935896" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/pay-tick-gia-han-tick-cac-nuoc_935896520.png" alt="Pay Tick - Gia Hạn Tick Các Nước">
+													<img class="product-image__img" src="./public/images/pay-tick-gia-han-tick-cac-nuoc_935896520.png" alt="Pay Tick - Gia Hạn Tick Các Nước">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -1296,7 +1296,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/hma-vpn-mail-chinh-chu_680989" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/hma-vpn-mail-chinh-chu_680989549.png" alt="HMA VPN MAIL CHÍNH CHỦ">
+													<img class="product-image__img" src="./public/images/hma-vpn-mail-chinh-chu_680989549.png" alt="HMA VPN MAIL CHÍNH CHỦ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">60.000 đ - 650.000 đ</div>
@@ -1372,7 +1372,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/-nang-cap-capcut-pro-tai-khoan-chinh-chu_393232" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/-nang-cap-capcut-pro-tai-khoan-chinh-chu_393232595.png" alt="⭐️ NÂNG CẤP CAPCUT PRO TÀI KHOẢN CHÍNH CHỦ ⭐️">
+													<img class="product-image__img" src="./public/images/-nang-cap-capcut-pro-tai-khoan-chinh-chu_393232595.png" alt="⭐️ NÂNG CẤP CAPCUT PRO TÀI KHOẢN CHÍNH CHỦ ⭐️">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -1450,7 +1450,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/canva-pro-chinh-chu-vinh-vien-gia-re_531858" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/canva-pro-chinh-chu-vinh-vien-gia-re_531858.png" alt="Nâng Cấp Canva Pro Chính Chủ Vĩnh Viễn Giá Rẻ">
+													<img class="product-image__img" src="./public/images/canva-pro-chinh-chu-vinh-vien-gia-re_531858.png" alt="Nâng Cấp Canva Pro Chính Chủ Vĩnh Viễn Giá Rẻ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">5.000 đ - 48.000 đ</div>
@@ -1526,7 +1526,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/youtube-premium-chinh-chu-tron-oi_313562" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/youtube-premium-chinh-chu-tron-oi_313562.png" alt="Youtube Premium Chính Chủ Trọn Đời Giá Rẻ">
+													<img class="product-image__img" src="./public/images/youtube-premium-chinh-chu-tron-oi_313562.png" alt="Youtube Premium Chính Chủ Trọn Đời Giá Rẻ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">50.000 đ - 249.000 đ</div>
@@ -1594,7 +1594,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/youtube-premium-bao-hanh-tron-oi_584317" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/youtube-premium-bao-hanh-tron-oi_584317.png" alt="Youtube Premium - Nâng cấp bằng mail chính chủ">
+													<img class="product-image__img" src="./public/images/youtube-premium-bao-hanh-tron-oi_584317.png" alt="Youtube Premium - Nâng cấp bằng mail chính chủ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">25.000 đ - 280.000 đ</div>
@@ -1667,7 +1667,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nang-cap-tai-khoan-telegram-tren-tai-khoan-chinh-chu-chi-can-username_718490" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nang-cap-tai-khoan-telegram-tren-tai-khoan-chinh-chu-chi-can-username_718490.png" alt="Nâng cấp tài khoản Telegram trên tài khoản chính chủ - chỉ cần Username ">
+													<img class="product-image__img" src="./public/images/nang-cap-tai-khoan-telegram-tren-tai-khoan-chinh-chu-chi-can-username_718490.png" alt="Nâng cấp tài khoản Telegram trên tài khoản chính chủ - chỉ cần Username ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">500.000 đ - 600.000 đ</div>
@@ -1743,7 +1743,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/proxy-ipv4-ipv6-sieu-re_496931" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/proxy-ipv4-ipv6-sieu-re_496931127.png" alt="Build Twitter GIÁ RẺ">
+													<img class="product-image__img" src="./public/images/proxy-ipv4-ipv6-sieu-re_496931127.png" alt="Build Twitter GIÁ RẺ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">50.000 đ - 140.000 đ</div>
@@ -1819,7 +1819,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/-tao-tai-khoan-capcut-pro-30-70-ngay_722621" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/-tao-tai-khoan-capcut-pro-30-70-ngay_722621.png" alt=" Tạo tài khoản Capcut Pro 30-70 Ngày dùng riêng tư">
+													<img class="product-image__img" src="./public/images/-tao-tai-khoan-capcut-pro-30-70-ngay_722621.png" alt=" Tạo tài khoản Capcut Pro 30-70 Ngày dùng riêng tư">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">50.000 đ - 90.000 đ</div>
@@ -1887,7 +1887,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nang-cap-canva-pro-chinh-chu-gia-re_179600" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nang-cap-canva-pro-chinh-chu-gia-re_179600.png" alt="Nâng Cấp Canva Pro Chính Chủ Giá Rẻ">
+													<img class="product-image__img" src="./public/images/nang-cap-canva-pro-chinh-chu-gia-re_179600.png" alt="Nâng Cấp Canva Pro Chính Chủ Giá Rẻ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">15.000 đ - 120.000 đ</div>
@@ -1952,7 +1952,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nang-cap-goi-dung-luong-icloud-50gb-200gb-2tb-nam_230176" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nang-cap-goi-dung-luong-icloud-50gb-200gb-2tb-nam_230176542.png" alt="NÂNG CẤP GÓI DUNG LƯỢNG ICLOUD 50GB 200GB 2TB / NĂM ">
+													<img class="product-image__img" src="./public/images/nang-cap-goi-dung-luong-icloud-50gb-200gb-2tb-nam_230176542.png" alt="NÂNG CẤP GÓI DUNG LƯỢNG ICLOUD 50GB 200GB 2TB / NĂM ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">160.000 đ - 1.500.000 đ</div>
@@ -2028,7 +2028,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nang-cap-tai-khoan-capcut-1-nam-su-dung-mail-chinh-chu_246206" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nang-cap-tai-khoan-capcut-1-nam-su-dung-mail-chinh-chu_246206.png" alt="Nâng câp tài khoản capcut 1 năm sử dụng mail chính chủ">
+													<img class="product-image__img" src="./public/images/nang-cap-tai-khoan-capcut-1-nam-su-dung-mail-chinh-chu_246206.png" alt="Nâng câp tài khoản capcut 1 năm sử dụng mail chính chủ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>

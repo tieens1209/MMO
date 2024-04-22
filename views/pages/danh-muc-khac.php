@@ -1,4 +1,4 @@
-<link href="./view/assets/css/style.css" rel="stylesheet">
+
 <div class="site__body">
 			<div class="holder" style="display: none;"><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 			</div>
@@ -118,7 +118,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823">
-														<img style="width: 100%" src="./view/assets/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
+														<img style="width: 100%" src="./public/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -150,7 +150,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666">
-														<img style="width: 100%" src="./view/assets/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
+														<img style="width: 100%" src="./public/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -182,7 +182,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139">
-														<img style="width: 100%" src="./view/assets/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
+														<img style="width: 100%" src="./public/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -214,7 +214,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
+														<img style="width: 100%" src="./public/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -246,7 +246,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630">
-														<img style="width: 100%" src="./view/assets/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
+														<img style="width: 100%" src="./public/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -278,7 +278,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
+														<img style="width: 100%" src="./public/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -310,7 +310,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/kinh-nghiem-tiktok-beta-global_693559">
-														<img style="width: 100%" src="./view/assets/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
+														<img style="width: 100%" src="./public/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -342,7 +342,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490">
-														<img style="width: 100%" src="./view/assets/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
+														<img style="width: 100%" src="./public/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -450,7 +450,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/proxy-v6-vn-private-gia-re_119936" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/proxy-v6-vn-private-gia-re_119936.png" alt="PROXY V6 VN PRIVATE GIÁ RẺ">
+													<img class="product-image__img" src="./public/images/proxy-v6-vn-private-gia-re_119936.png" alt="PROXY V6 VN PRIVATE GIÁ RẺ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">951</span>
@@ -531,7 +531,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/key-1-1-1-1-warp-24-trieu-gb-tron-oi-vpn_207946" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/key-1-1-1-1-warp-24-trieu-gb-tron-oi-vpn_207946722.png" alt="Key VPN 1.1.1.1 WARP+ 24 triệu GB Trọn đời">
+													<img class="product-image__img" src="./public/images/key-1-1-1-1-warp-24-trieu-gb-tron-oi-vpn_207946722.png" alt="Key VPN 1.1.1.1 WARP+ 24 triệu GB Trọn đời">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">107</span>
@@ -606,7 +606,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/github-student-education-pack-live_567411" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/github-student-education-pack-live_567411551.png" alt="PIA PROXY SOCK5 100ip, 200ip, 400ip giá rẻ">
+													<img class="product-image__img" src="./public/images/github-student-education-pack-live_567411551.png" alt="PIA PROXY SOCK5 100ip, 200ip, 400ip giá rẻ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">5</span>
@@ -676,7 +676,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/amazon-gift-card-us_450429" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/amazon-gift-card-us_450429.png" alt="Amazon Gift Card (US, UK)">
+													<img class="product-image__img" src="./public/images/amazon-gift-card-us_450429.png" alt="Amazon Gift Card (US, UK)">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">1</span>
@@ -749,7 +749,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tai-khoan-vps-linode_41399" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tai-khoan-vps-linode_41399974.png" alt="Youtube Premium 4tháng">
+													<img class="product-image__img" src="./public/images/tai-khoan-vps-linode_41399974.png" alt="Youtube Premium 4tháng">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">7</span>
@@ -830,7 +830,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/vps-viet-chinh-hang-treo-tiktok-mmo-gia-re_100343" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/vps-viet-chinh-hang-treo-tiktok-mmo-gia-re_100343.png" alt="VPS CHUYÊN LIVE TIKTOK, SHOPEE &amp; TREO TOOL MMO">
+													<img class="product-image__img" src="./public/images/vps-viet-chinh-hang-treo-tiktok-mmo-gia-re_100343.png" alt="VPS CHUYÊN LIVE TIKTOK, SHOPEE &amp; TREO TOOL MMO">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">14</span>
@@ -911,7 +911,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nhieu-loai-vps-trial-30day-chinh-hang-bao-hanh-30day_411394" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nhieu-loai-vps-trial-30day-chinh-hang-bao-hanh-30day_411394829.png" alt="Nhiều Loại VPS Trial  30day-Chính Hãng Bảo Hành 30Day">
+													<img class="product-image__img" src="./public/images/nhieu-loai-vps-trial-30day-chinh-hang-bao-hanh-30day_411394829.png" alt="Nhiều Loại VPS Trial  30day-Chính Hãng Bảo Hành 30Day">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">327</span>
@@ -989,7 +989,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/proxy-share-ipv4-ipv6-dan-cu-gia-re-toc-o-cao-viettel_501092" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/proxy-share-ipv4-ipv6-dan-cu-gia-re-toc-o-cao-viettel_501092659.png" alt="Proxy Share IPv4  Dân Cư Việt Nam Giá Rẻ ">
+													<img class="product-image__img" src="./public/images/proxy-share-ipv4-ipv6-dan-cu-gia-re-toc-o-cao-viettel_501092659.png" alt="Proxy Share IPv4  Dân Cư Việt Nam Giá Rẻ ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">429</span>
@@ -1070,7 +1070,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/proxy-ipv4-dan-cu-vn-dung-nhanh-1p-oi-ip-thanh-cong-100_585640" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/proxy-ipv4-dan-cu-vn-dung-nhanh-1p-oi-ip-thanh-cong-100_585640.png" alt="Proxy IPV4 Dân Cư VN - Dùng Nhanh 1P đỗi IP.">
+													<img class="product-image__img" src="./public/images/proxy-ipv4-dan-cu-vn-dung-nhanh-1p-oi-ip-thanh-cong-100_585640.png" alt="Proxy IPV4 Dân Cư VN - Dùng Nhanh 1P đỗi IP.">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">214</span>
@@ -1143,7 +1143,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/itunes-apple-gift-card-turkey-tho-nhi-ky_518151" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/itunes-apple-gift-card-turkey-tho-nhi-ky_518151.png" alt="iTunes Apple Gift Card TURKEY - Thổ Nhĩ Kỳ">
+													<img class="product-image__img" src="./public/images/itunes-apple-gift-card-turkey-tho-nhi-ky_518151.png" alt="iTunes Apple Gift Card TURKEY - Thổ Nhĩ Kỳ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">2</span>
@@ -1216,7 +1216,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/proxy-nuoi-acc-tiktok-fb-zalo-x_269815" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/proxy-nuoi-acc-tiktok-fb-zalo-x_269815.png" alt="PROXY nuôi acc TIKTOK- FB- ZALO-X">
+													<img class="product-image__img" src="./public/images/proxy-nuoi-acc-tiktok-fb-zalo-x_269815.png" alt="PROXY nuôi acc TIKTOK- FB- ZALO-X">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">317</span>
@@ -1297,7 +1297,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tap-hoa-proxy-ipv4-dan-cu-viet-nam-viettel-fpt_438088" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tap-hoa-proxy-ipv4-dan-cu-viet-nam-viettel-fpt_438088.png" alt="Tạp Hóa Proxy IPv4 dân cư Việt Nam - Viettel -FPT">
+													<img class="product-image__img" src="./public/images/tap-hoa-proxy-ipv4-dan-cu-viet-nam-viettel-fpt_438088.png" alt="Tạp Hóa Proxy IPv4 dân cư Việt Nam - Viettel -FPT">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">21</span>
@@ -1372,7 +1372,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/amazon-music-unlimited-us-trail-30-day_596463" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/amazon-music-unlimited-us-trail-30-day_596463.png" alt="Amazon Music Unlimited (US Trail 30 Day)">
+													<img class="product-image__img" src="./public/images/amazon-music-unlimited-us-trail-30-day_596463.png" alt="Amazon Music Unlimited (US Trail 30 Day)">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">40</span>
@@ -1445,7 +1445,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/khoa-hoc-mmo-cua-linh-thach-ecom-tri-gia-1000_475209" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/khoa-hoc-mmo-cua-linh-thach-ecom-tri-gia-1000_475209.png" alt="Khoá học - MMO của Linh Thạch Ecom trị giá 1000$">
+													<img class="product-image__img" src="./public/images/khoa-hoc-mmo-cua-linh-thach-ecom-tri-gia-1000_475209.png" alt="Khoá học - MMO của Linh Thạch Ecom trị giá 1000$">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">1</span>
@@ -1523,7 +1523,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/voucher-tryhackme-premium-1-thang_360846" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/voucher-tryhackme-premium-1-thang_360846468.png" alt="Voucher Tryhackme premium 1 - 2 - 3 tháng">
+													<img class="product-image__img" src="./public/images/voucher-tryhackme-premium-1-thang_360846468.png" alt="Voucher Tryhackme premium 1 - 2 - 3 tháng">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">9</span>
@@ -1601,7 +1601,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/link-bat-2fa-facebook-protect-uy-tin_159908" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/link-bat-2fa-facebook-protect-uy-tin_159908.png" alt="LINK BẬT 2FA FACEBOOK PROTECT UY TÍN">
+													<img class="product-image__img" src="./public/images/link-bat-2fa-facebook-protect-uy-tin_159908.png" alt="LINK BẬT 2FA FACEBOOK PROTECT UY TÍN">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">139</span>
@@ -1674,7 +1674,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/video-tong-hop-khoa-hoc-facebook-ads-a-z-tai-ve-khoi-phai-mat-tram-tr-cho-cac-thay_888992" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/video-tong-hop-khoa-hoc-facebook-ads-a-z-tai-ve-khoi-phai-mat-tram-tr-cho-cac-thay_888992.png" alt="video tổng hợp khóa học facebook ads  a-z (tải về khỏi phải mất trăm tr cho các thầy)">
+													<img class="product-image__img" src="./public/images/video-tong-hop-khoa-hoc-facebook-ads-a-z-tai-ve-khoi-phai-mat-tram-tr-cho-cac-thay_888992.png" alt="video tổng hợp khóa học facebook ads  a-z (tải về khỏi phải mất trăm tr cho các thầy)">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">11</span>
@@ -1744,7 +1744,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/vps-chay-uoc-grass-vps-gpu-gia-re_175884" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/vps-chay-uoc-grass-vps-gpu-gia-re_175884.png" alt="VPS Chạy được Grass - VPS GPU giá rẻ">
+													<img class="product-image__img" src="./public/images/vps-chay-uoc-grass-vps-gpu-gia-re_175884.png" alt="VPS Chạy được Grass - VPS GPU giá rẻ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">3</span>
@@ -1824,7 +1824,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/-tut-ytb-full-tut-khang-kenh-die-spam-cong-ong-khieu-dam-youtube-khoi-mat-tien-thue_883797" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/-tut-ytb-full-tut-khang-kenh-die-spam-cong-ong-khieu-dam-youtube-khoi-mat-tien-thue_883797.png" alt="【TUT YTB】 FULL TUT kháng kênh die spam, cộng đồng, khiêu dăm,... Youtube ( khỏi mất tiền thuê )">
+													<img class="product-image__img" src="./public/images/-tut-ytb-full-tut-khang-kenh-die-spam-cong-ong-khieu-dam-youtube-khoi-mat-tien-thue_883797.png" alt="【TUT YTB】 FULL TUT kháng kênh die spam, cộng đồng, khiêu dăm,... Youtube ( khỏi mất tiền thuê )">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">2</span>
@@ -1897,7 +1897,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/proxy-us-va-cac-quoc-gia-khac-radom-sieu-trau-sieu-chat-sieu-re_147050" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/proxy-us-va-cac-quoc-gia-khac-radom-sieu-trau-sieu-chat-sieu-re_147050904.png" alt="PROXY MỸ PREMIUM |SIÊU TRÂU - SIÊU CHẤT - SIÊU RẺ">
+													<img class="product-image__img" src="./public/images/proxy-us-va-cac-quoc-gia-khac-radom-sieu-trau-sieu-chat-sieu-re_147050904.png" alt="PROXY MỸ PREMIUM |SIÊU TRÂU - SIÊU CHẤT - SIÊU RẺ">
 												</a>
 												<div style="padding-top:15px;text-align:center;" class="product-card__availability">
 													Tồn kho: <span class="text-success">38</span>

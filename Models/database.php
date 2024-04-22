@@ -5,7 +5,7 @@ class Database {
     private $host = "localhost";
     private $username = "root";
     private $password = "";
-    private $database = "MMO";
+    private $database = "mmo";
     private $mysqli;
     public function __construct() {
         $this->mysqli = new mysqli($this->host, $this->username, $this->password, $this->database);

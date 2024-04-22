@@ -1,4 +1,4 @@
-<link href="./view/assets/css/style.css" rel="stylesheet">
+
 <div class="site__body">
 			<div class="holder" style="display: none;"><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 			</div>
@@ -117,7 +117,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823">
-														<img style="width: 100%" src="./view/assets/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
+														<img style="width: 100%" src="./public/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -149,7 +149,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666">
-														<img style="width: 100%" src="./view/assets/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
+														<img style="width: 100%" src="./public/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -181,7 +181,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139">
-														<img style="width: 100%" src="./view/assets/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
+														<img style="width: 100%" src="./public/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -213,7 +213,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
+														<img style="width: 100%" src="./public/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -245,7 +245,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630">
-														<img style="width: 100%" src="./view/assets/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
+														<img style="width: 100%" src="./public/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -277,7 +277,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
+														<img style="width: 100%" src="./public/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -309,7 +309,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/kinh-nghiem-tiktok-beta-global_693559">
-														<img style="width: 100%" src="./view/assets/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
+														<img style="width: 100%" src="./public/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -341,7 +341,7 @@ div#description {
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490">
-														<img style="width: 100%" src="./view/assets/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
+														<img style="width: 100%" src="./public/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -435,7 +435,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/sepolia-eth-testnet_109400" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/sepolia-eth-testnet_109400.png" alt="Sepolia ETH [Testnet]">
+													<img class="product-image__img" src="./public/images/sepolia-eth-testnet_109400.png" alt="Sepolia ETH [Testnet]">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">6.000 đ</div>
@@ -510,7 +510,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/sui-cho-ai-co-nhu-cau_158347" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/sui-cho-ai-co-nhu-cau_158347.png" alt="Bán sui mainet làm phí gas gd">
+													<img class="product-image__img" src="./public/images/sui-cho-ai-co-nhu-cau_158347.png" alt="Bán sui mainet làm phí gas gd">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">10.000 đ</div>
@@ -586,7 +586,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/venom-network-testnet-700-vnd-cho-ae-lam-airdrop_358096" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/venom-network-testnet-700-vnd-cho-ae-lam-airdrop_358096.png" alt="VENOM NETWORK TESTNET 700 VND CHO AE LÀM AIRDROP">
+													<img class="product-image__img" src="./public/images/venom-network-testnet-700-vnd-cho-ae-lam-airdrop_358096.png" alt="VENOM NETWORK TESTNET 700 VND CHO AE LÀM AIRDROP">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">3.000 đ - 8.000.000 đ</div>
@@ -654,7 +654,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/holesky-eth-testnet-gia-re_90949" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/holesky-eth-testnet-gia-re_90949.png" alt="Holesky ETH Testnet Giá Rẻ">
+													<img class="product-image__img" src="./public/images/holesky-eth-testnet-gia-re_90949.png" alt="Holesky ETH Testnet Giá Rẻ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">20.000 đ - 75.000 đ</div>
@@ -722,7 +722,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/token-testnet-tat-ca-cac-du-an-airdop-retroactive-faucet_487143" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/token-testnet-tat-ca-cac-du-an-airdop-retroactive-faucet_487143.png" alt="Testnet - Bera">
+													<img class="product-image__img" src="./public/images/token-testnet-tat-ca-cac-du-an-airdop-retroactive-faucet_487143.png" alt="Testnet - Bera">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">10 đ - 5.000 đ</div>
@@ -798,7 +798,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/base-goerli-5000-base_285576" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/base-goerli-5000-base_285576.png" alt="Base Goerli 5000đ (Giảm thêm 5% đơn > 100 ETH)">
+													<img class="product-image__img" src="./public/images/base-goerli-5000-base_285576.png" alt="Base Goerli 5000đ (Giảm thêm 5% đơn > 100 ETH)">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">10.000 đ</div>
@@ -871,7 +871,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/matic-testnet-phuc-vu-test-mang-polygon-mumbai_786828" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/matic-testnet-phuc-vu-test-mang-polygon-mumbai_786828356.png" alt="Matic &amp; Avax &amp; Fantom testnet rẻ nhất thị trường!">
+													<img class="product-image__img" src="./public/images/matic-testnet-phuc-vu-test-mang-polygon-mumbai_786828356.png" alt="Matic &amp; Avax &amp; Fantom testnet rẻ nhất thị trường!">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">300 đ - 6.000 đ</div>
@@ -944,7 +944,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/chuyen-cung-cap-speolia-eth-testnet-cho-ae-cay-airdrop-gia-re_331302" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/chuyen-cung-cap-speolia-eth-testnet-cho-ae-cay-airdrop-gia-re_331302911.png" alt="Chuyên cung cấp SPEOLIA ETH testnet, cho ae cày airdrop (GIÁ RẺ)">
+													<img class="product-image__img" src="./public/images/chuyen-cung-cap-speolia-eth-testnet-cho-ae-cay-airdrop-gia-re_331302911.png" alt="Chuyên cung cấp SPEOLIA ETH testnet, cho ae cày airdrop (GIÁ RẺ)">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">5.000 đ</div>
@@ -1022,7 +1022,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/geth-6300-7500-geth-giam-them-5-khi-mua-100-geth-tro-len_285576" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/geth-6300-7500-geth-giam-them-5-khi-mua-100-geth-tro-len_285576820.png" alt="SEPOLIA 5000đ (Giảm 8% đơn > 1000 ETH) ">
+													<img class="product-image__img" src="./public/images/geth-6300-7500-geth-giam-them-5-khi-mua-100-geth-tro-len_285576820.png" alt="SEPOLIA 5000đ (Giảm 8% đơn > 1000 ETH) ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">6.000 đ - 5.520.000 đ</div>
@@ -1087,7 +1087,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nhan-kyc-cac-san-coin-mexc-glogbal-bybit-binance-gate-huobi_826877" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nhan-kyc-cac-san-coin-mexc-glogbal-bybit-binance-gate-huobi_826877.png" alt="Nhận KYC các sàn coin (Mexc, Bybit, Binance, Gate, Huobi,...)">
+													<img class="product-image__img" src="./public/images/nhan-kyc-cac-san-coin-mexc-glogbal-bybit-binance-gate-huobi_826877.png" alt="Nhận KYC các sàn coin (Mexc, Bybit, Binance, Gate, Huobi,...)">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">190.000 đ - 300.000 đ</div>
@@ -1155,7 +1155,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/linea-eth-linea-testnet_941126" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/linea-eth-linea-testnet_941126497.png" alt="Holesky ETH 2k (Holesky Testnet)">
+													<img class="product-image__img" src="./public/images/linea-eth-linea-testnet_941126497.png" alt="Holesky ETH 2k (Holesky Testnet)">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -1231,7 +1231,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/testnet-coin-token-so-luong-lon-gia-re_497595" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/testnet-coin-token-so-luong-lon-gia-re_497595.png" alt="Testnet coin/token số lượng lớn giá rẻ">
+													<img class="product-image__img" src="./public/images/testnet-coin-token-so-luong-lon-gia-re_497595.png" alt="Testnet coin/token số lượng lớn giá rẻ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">105 đ - 3.600 đ</div>
@@ -1307,7 +1307,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tbnb-bnb-testnet-sll-1800-2000_285576" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tbnb-bnb-testnet-sll-1800-2000_285576298.png" alt="TBNB (BNB testnet) 800đ (Giảm đến 20% >2000 BNB)">
+													<img class="product-image__img" src="./public/images/tbnb-bnb-testnet-sll-1800-2000_285576298.png" alt="TBNB (BNB testnet) 800đ (Giảm đến 20% >2000 BNB)">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">800 đ - 1.280.000 đ</div>
@@ -1372,7 +1372,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/sepolia-eth-2500vnd-3000-vnd_941126" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/sepolia-eth-2500vnd-3000-vnd_941126798.png" alt="Sepolia ETH 2k">
+													<img class="product-image__img" src="./public/images/sepolia-eth-2500vnd-3000-vnd_941126798.png" alt="Sepolia ETH 2k">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -1440,7 +1440,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/goerli-eth-geth-gia-5k-uy-tin-nhanh-gon_487134" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/goerli-eth-geth-gia-5k-uy-tin-nhanh-gon_487134.png" alt="Goerli ETH (gETH) Giá 5K Uy Tín Nhanh Gọn">
+													<img class="product-image__img" src="./public/images/goerli-eth-geth-gia-5k-uy-tin-nhanh-gon_487134.png" alt="Goerli ETH (gETH) Giá 5K Uy Tín Nhanh Gọn">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">12.500 đ - 120.000 đ</div>
@@ -1516,7 +1516,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/testnet-coin-token-so-luong-lon-gia-re-cho-anh-em_328924" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/testnet-coin-token-so-luong-lon-gia-re-cho-anh-em_328924381.png" alt="Cung cấp Holesky- Blast Sepolia testnet ">
+													<img class="product-image__img" src="./public/images/testnet-coin-token-so-luong-lon-gia-re-cho-anh-em_328924381.png" alt="Cung cấp Holesky- Blast Sepolia testnet ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">3.500 đ - 330.000 đ</div>
@@ -1592,7 +1592,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/goerli-eth-gia-re_731057" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/goerli-eth-gia-re_731057746.png" alt="SEPOLIA  ETH  (GIÁ RẺ)">
+													<img class="product-image__img" src="./public/images/goerli-eth-gia-re_731057746.png" alt="SEPOLIA  ETH  (GIÁ RẺ)">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -1660,7 +1660,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/binance-kyc-gia-re-chat-luong_714379" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/binance-kyc-gia-re-chat-luong_714379.png" alt="Binance KYC - Giá Rẻ - Chất Lượng">
+													<img class="product-image__img" src="./public/images/binance-kyc-gia-re-chat-luong_714379.png" alt="Binance KYC - Giá Rẻ - Chất Lượng">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">150.000 đ</div>
@@ -1728,7 +1728,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/cung-cap-goerli-eth-testnet-airdrop-moi-so-luong_487143" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/cung-cap-goerli-eth-testnet-airdrop-moi-so-luong_487143.png" alt="Cung cấp Holesky ETH Testnet">
+													<img class="product-image__img" src="./public/images/cung-cap-goerli-eth-testnet-airdrop-moi-so-luong_487143.png" alt="Cung cấp Holesky ETH Testnet">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">3.000 đ</div>
@@ -1804,7 +1804,7 @@ div#description {
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-cung-cap-tat-ca-cac-loai-fee-blockchain_906296" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-cung-cap-tat-ca-cac-loai-fee-blockchain_906296.png" alt="DỊCH VỤ CUNG CẤP TẤT CẢ CÁC LOẠI FEE BLOCKCHAIN">
+													<img class="product-image__img" src="./public/images/dich-vu-cung-cap-tat-ca-cac-loai-fee-blockchain_906296.png" alt="DỊCH VỤ CUNG CẤP TẤT CẢ CÁC LOẠI FEE BLOCKCHAIN">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">150.000 đ</div>

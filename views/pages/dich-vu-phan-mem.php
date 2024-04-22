@@ -1,5 +1,5 @@
 
-<link href="./view/assets/css/style.css" rel="stylesheet">
+
 <div class="site__body">
 			<div class="holder" style="display: none;"><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 			</div>
@@ -106,7 +106,7 @@
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823">
-														<img style="width: 100%" src="./view/assets/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
+														<img style="width: 100%" src="./public/images/chia-se-tut-moi-nhat-va-code-f12-mien-phi-cho-anh-chi-em_794823.png" alt="CHIA SẼ TUT MỚI NHẤT VÀ CODE F12 MIỄN PHÍ CHO ANH CHỊ EM">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -138,7 +138,7 @@
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666">
-														<img style="width: 100%" src="./view/assets/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
+														<img style="width: 100%" src="./public/images/nhung-antidetect-browser-nao-uoc-anh-em-lam-mmo-viet-nam-su-dung-nhieu-nhat_249666.png" alt="Những antidetect browser nào được anh em làm MMO Việt Nam sử dụng nhiều nhất">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -170,7 +170,7 @@
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139">
-														<img style="width: 100%" src="./view/assets/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
+														<img style="width: 100%" src="./public/images/-ung-xay-kenh-tik-tok-neu-ban-chua-biet-en-5-ieu-quan-trong-duoi-ay_662139.png" alt="ĐỪNG XÂY KÊNH TIK TOK, NẾU BẠN CHƯA BIẾT ĐẾN 5 ĐIỀU QUAN TRỌNG DƯỚI ĐÂY">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -202,7 +202,7 @@
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
+														<img style="width: 100%" src="./public/images/huong-dan-sao-luu-va-khoi-phuc-ban-quyen-windows-office_191545.png" alt="Hướng dẫn sao lưu và khôi phục bản quyền Windows / Office">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -234,7 +234,7 @@
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630">
-														<img style="width: 100%" src="./view/assets/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
+														<img style="width: 100%" src="./public/images/khong-login-uoc-tai-khoan-telegram-khi-mua-tu-taphoammo_758630.png" alt="Không Login Được Tài Khoản Telegram Khi Mua Từ TapHoaMMo">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -266,7 +266,7 @@
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509">
-														<img style="width: 100%" src="./view/assets/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
+														<img style="width: 100%" src="./public/images/huong-dan-login-tai-khoan-twitter-x-va-nhung-luu-y_47509.png" alt="Hướng dẫn login tài khoản Twitter  - X và những lưu ý !!!">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -298,7 +298,7 @@
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/kinh-nghiem-tiktok-beta-global_693559">
-														<img style="width: 100%" src="./view/assets/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
+														<img style="width: 100%" src="./public/images/kinh-nghiem-tiktok-beta-global_693559.png" alt="Kinh nghiệm Tiktok Beta Global">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -330,7 +330,7 @@
 												<hr>
 												<div class="widget-posts__image" style="width: 100%">
 													<a href="/post/detail/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490">
-														<img style="width: 100%" src="./view/assets/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
+														<img style="width: 100%" src="./public/images/nhung-luu-y-nho-nho-cho-anh-em-lam-tiktok-beta-chat-loc-uoc-sau-khoang-thoi-gian-tu-may-mo_718490.png" alt="Những lưu ý nho nhỏ cho anh em làm TIKTOK BETA - chắt lọc được sau khoảng thời gian tự mày mò">
 													</a>
 												</div>
 												<div class="widget-posts__info" style="margin-top: 10px;">
@@ -424,7 +424,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/code-website-theo-yeu-cau-mmo-e-commerce-e-learning-lms-shop-account" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/code-website-theo-yeu-cau-mmo-e-commerce-e-learning-lms-shop-account601.png" alt="Dịch vụ thiết kế website / phần mềm theo yêu cầu">
+													<img class="product-image__img" src="./public/images/code-website-theo-yeu-cau-mmo-e-commerce-e-learning-lms-shop-account601.png" alt="Dịch vụ thiết kế website / phần mềm theo yêu cầu">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -500,7 +500,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-viet-tool-phan-mem-theo-yeu-cau-gia-re_689440" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-viet-tool-phan-mem-theo-yeu-cau-gia-re_689440.png" alt="DỊCH VỤ VIẾT TOOL, PHẦN MỀM THEO YÊU CẦU GIÁ RẺ">
+													<img class="product-image__img" src="./public/images/dich-vu-viet-tool-phan-mem-theo-yeu-cau-gia-re_689440.png" alt="DỊCH VỤ VIẾT TOOL, PHẦN MỀM THEO YÊU CẦU GIÁ RẺ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -568,7 +568,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/bunny-dream-technology_264583" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/bunny-dream-technology_264583359.png" alt="Dịch vụ code tool - bot - extension theo yêu cầu">
+													<img class="product-image__img" src="./public/images/bunny-dream-technology_264583359.png" alt="Dịch vụ code tool - bot - extension theo yêu cầu">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -641,7 +641,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-viet-tool-thiet-ke-website-banner-logo-theo-yeu-cau-gia-hat-re_939353" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-viet-tool-thiet-ke-website-banner-logo-theo-yeu-cau-gia-hat-re_939353639.png" alt="DỊCH VỤ VIẾT TOOL, EXTENSION THEO YÊU CẦU">
+													<img class="product-image__img" src="./public/images/dich-vu-viet-tool-thiet-ke-website-banner-logo-theo-yeu-cau-gia-hat-re_939353639.png" alt="DỊCH VỤ VIẾT TOOL, EXTENSION THEO YÊU CẦU">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -709,7 +709,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/copartpro-com_130790" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/copartpro-com_130790448.png" alt="Adobe Full App Giá rẻ">
+													<img class="product-image__img" src="./public/images/copartpro-com_130790448.png" alt="Adobe Full App Giá rẻ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">1.099.000 đ - 1.599.000 đ</div>
@@ -782,7 +782,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/thiet-ke-website-theo-yeu-cau-designwebsite_846655" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/thiet-ke-website-theo-yeu-cau-designwebsite_846655.png" alt="Thiết Kế Website theo yêu cầu - Designwebsite">
+													<img class="product-image__img" src="./public/images/thiet-ke-website-theo-yeu-cau-designwebsite_846655.png" alt="Thiết Kế Website theo yêu cầu - Designwebsite">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -850,7 +850,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nhan-code-tool-tu-ong-cho-web-app-mobile-api-bot-telegram-thiet-ke-website-bot-airdrop_314083" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nhan-code-tool-tu-ong-cho-web-app-mobile-api-bot-telegram-thiet-ke-website-bot-airdrop_314083.png" alt="Nhận Code Tool Tự Động Cho Web,App Mobile,API,Bot Telegram,Thiết Kế Website,Bot Airdrop">
+													<img class="product-image__img" src="./public/images/nhan-code-tool-tu-ong-cho-web-app-mobile-api-bot-telegram-thiet-ke-website-bot-airdrop_314083.png" alt="Nhận Code Tool Tự Động Cho Web,App Mobile,API,Bot Telegram,Thiết Kế Website,Bot Airdrop">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -918,7 +918,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-code-tool-x-buff-view-folow_354838" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-code-tool-x-buff-view-folow_354838.png" alt="Dịch Vụ Code Tool X - Buff view - Folow">
+													<img class="product-image__img" src="./public/images/dich-vu-code-tool-x-buff-view-folow_354838.png" alt="Dịch Vụ Code Tool X - Buff view - Folow">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">40.000 đ - 5.000.000 đ</div>
@@ -986,7 +986,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nang-cap-adobe-stock-750-assets-chinh-chu_325390" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nang-cap-adobe-stock-750-assets-chinh-chu_325390233.png" alt="Google One - Google Drive - Nâng Cấp Chính Chủ">
+													<img class="product-image__img" src="./public/images/nang-cap-adobe-stock-750-assets-chinh-chu_325390233.png" alt="Google One - Google Drive - Nâng Cấp Chính Chủ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -1051,7 +1051,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-thiet-ke-website-landing-page-theo-yeu-cau_368537" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-thiet-ke-website-landing-page-theo-yeu-cau_368537.png" alt="Dịch vụ thiết kế website, landing page theo yêu cầu">
+													<img class="product-image__img" src="./public/images/dich-vu-thiet-ke-website-landing-page-theo-yeu-cau_368537.png" alt="Dịch vụ thiết kế website, landing page theo yêu cầu">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -1127,7 +1127,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tang-luot-tai-ung-dung-tren-ios-va-android_261958" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tang-luot-tai-ung-dung-tren-ios-va-android_261958272.png" alt="Tăng Lượt Tải Ứng Dụng Trên IOS Và Android">
+													<img class="product-image__img" src="./public/images/tang-luot-tai-ung-dung-tren-ios-va-android_261958272.png" alt="Tăng Lượt Tải Ứng Dụng Trên IOS Và Android">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">220.000 đ - 31.000.000 đ</div>
@@ -1195,7 +1195,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nhan-code-phan-mem-ung-dung-bot-website_170322" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nhan-code-phan-mem-ung-dung-bot-website_170322.png" alt="Nhận code: Phần mềm - Ứng dụng - Bot - Website">
+													<img class="product-image__img" src="./public/images/nhan-code-phan-mem-ung-dung-bot-website_170322.png" alt="Nhận code: Phần mềm - Ứng dụng - Bot - Website">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -1268,7 +1268,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nang-cap-adobe-full-apps-1tb-cloud-stock-unlimited-chinh-chu_325390" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nang-cap-adobe-full-apps-1tb-cloud-stock-unlimited-chinh-chu_325390745.png" alt="Nâng Cấp Adobe Full Apps Bản Quyền">
+													<img class="product-image__img" src="./public/images/nang-cap-adobe-full-apps-1tb-cloud-stock-unlimited-chinh-chu_325390745.png" alt="Nâng Cấp Adobe Full Apps Bản Quyền">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">119.000 đ - 899.000 đ</div>
@@ -1341,7 +1341,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/nhan-viet-tool-extension-add-on-theo-yeu-cau_994463" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/nhan-viet-tool-extension-add-on-theo-yeu-cau_994463.png" alt="NHẬN VIẾT TOOL, EXTENSION, ADD-ON THEO YÊU CẦU">
+													<img class="product-image__img" src="./public/images/nhan-viet-tool-extension-add-on-theo-yeu-cau_994463.png" alt="NHẬN VIẾT TOOL, EXTENSION, ADD-ON THEO YÊU CẦU">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>
@@ -1417,7 +1417,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/ban-quyen-adobe-full-apps-chinh-chu-goi-trial-gia-han-theo-thang_518151" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/ban-quyen-adobe-full-apps-chinh-chu-goi-trial-gia-han-theo-thang_518151.png" alt="Bản quyền Adobe Full Apps Chính Chủ - Gói Trial Gia Hạn Theo Tháng">
+													<img class="product-image__img" src="./public/images/ban-quyen-adobe-full-apps-chinh-chu-goi-trial-gia-han-theo-thang_518151.png" alt="Bản quyền Adobe Full Apps Chính Chủ - Gói Trial Gia Hạn Theo Tháng">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">65.000 đ - 195.000 đ</div>
@@ -1482,7 +1482,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/tai-khoan-adobe-gia-re_130790" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/tai-khoan-adobe-gia-re_130790.png" alt="Tài khoản Adobe Giá rẻ">
+													<img class="product-image__img" src="./public/images/tai-khoan-adobe-gia-re_130790.png" alt="Tài khoản Adobe Giá rẻ">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">749.000 đ - 849.000 đ</div>
@@ -1555,7 +1555,7 @@
 
 												</div>
 												<a style="padding-bottom: 80%;padding-top: 10px;" href="/gian-hang/dich-vu-code-tools-chat-luong-gia-re-thbtools_588079" class="product-image__body">
-													<img class="product-image__img" src="./view/assets/images/dich-vu-code-tools-chat-luong-gia-re-thbtools_588079.png" alt="Dịch vụ code tools chất lượng - giá rẻ - bảo mật">
+													<img class="product-image__img" src="./public/images/dich-vu-code-tools-chat-luong-gia-re-thbtools_588079.png" alt="Dịch vụ code tools chất lượng - giá rẻ - bảo mật">
 												</a>
 												
 												<div style="text-align: center; font-size: 15px; margin-top: 12px;" class="product-card__prices">Giá thỏa thuận</div>

@@ -8,7 +8,7 @@ class erDatabase{
 		// Nếu chưa kết nối thì thực hiện kết nối
 		if (!$this->__conn){
 			// Kết nối
-			$this->__conn = mysqli_connect('localhost', 'root', '', 'dbshools') 
+			$this->__conn = mysqli_connect('localhost', 'root', '', 'mmo') 
 			or die ('Lỗi kết nối');
 			// Xử lý truy vấn UTF8 để tránh lỗi font
 			mysqli_query($this->__conn, "SET NAMES 'utf8'");

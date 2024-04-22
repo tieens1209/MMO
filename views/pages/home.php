@@ -58,7 +58,7 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="block-finder__body"
-								style="background-image: url(./view/assets/images/finder.jpg); height:300px;">
+								style="background-image: url(./public/images/finder.jpg); height:300px;">
 								<div class="block-finder__form" style="padding-top:3rem;">
 									<div class="block-finder__form-item">
 										<select id="firstFilter" onchange="onChangeFirstFilter(this)"
@@ -154,7 +154,7 @@
 
 						<div class="block-features__item services">
 							<div class="block-features__icon" style="height:100px;width:100px;">
-								<a href="?act=email"><img src="./view/assets/images/mail.png"></a>
+								<a href="?act=email"><img src="./public/images/mail.png"></a>
 							</div>
 							<style>
 								.block-features__title a{
@@ -174,7 +174,7 @@
 
 						<div class="block-features__item services">
 							<div class="block-features__icon" style="height:100px;width:100px;">
-								<a href="?act=phan-mem"><img src="./view/assets/images/soft2.png"></a>
+								<a href="?act=phan-mem"><img src="./public/images/soft2.png"></a>
 							</div>
 							<div class="block-features__content">
 								<div class="block-features__title" style="font-size: 22px;line-height: 40px;">
@@ -189,7 +189,7 @@
 
 						<div class="block-features__item services">
 							<div class="block-features__icon" style="height:100px;width:100px;">
-								<a href="?act=tai-khoan"><img src="./view/assets/images/account.png"></a>
+								<a href="?act=tai-khoan"><img src="./public/images/account.png"></a>
 							</div>
 							<div class="block-features__content">
 								<div class="block-features__title" style="font-size: 22px;line-height: 40px;">
@@ -204,7 +204,7 @@
 
 						<div class="block-features__item services">
 							<div class="block-features__icon" style="height:100px;width:100px;">
-								<a href="?act=danh-muc-khac"><img src="./view/assets/images/more.png"></a>
+								<a href="?act=danh-muc-khac"><img src="./public/images/more.png"></a>
 							</div>
 							<div class="block-features__content">
 								<div class="block-features__title" style="font-size: 22px;line-height: 40px;">
@@ -228,7 +228,7 @@
 						<div class="block-features__item services">
 							<div class="block-features__icon" style="height:100px;width:100px;">
 								<a href="?act=dich-vu-tuong-tac"><img
-										src="./view/assets/images/boost2.png"></a>
+										src="./public/images/boost2.png"></a>
 							</div>
 							<div class="block-features__content">
 								<div class="block-features__title" style="font-size: 22px;line-height: 40px;">
@@ -245,7 +245,7 @@
 						<div class="block-features__item services">
 							<div class="block-features__icon" style="height:100px;width:100px;">
 								<a href="?act=dich-vu-phan-mem"><img
-										src="./view/assets/images/soft-service.png"></a>
+										src="./public/images/soft-service.png"></a>
 							</div>
 							<div class="block-features__content">
 								<div class="block-features__title" style="font-size: 22px;line-height: 40px;">
@@ -262,7 +262,7 @@
 						<div class="block-features__item services">
 							<div class="block-features__icon" style="height:100px;width:100px;">
 								<a href="?act=dich-vu-blockchain"><img
-										src="./view/assets/images/block2.png"></a>
+										src="./public/images/block2.png"></a>
 							</div>
 							<div class="block-features__content">
 								<div class="block-features__title" style="font-size: 22px;line-height: 40px;">
@@ -278,7 +278,7 @@
 						<div class="block-features__item services">
 							<div class="block-features__icon" style="height:100px;width:100px;">
 								<a href="?act=dich-vu-khac"><img
-										src="./view/assets/images/more-service.png"></a>
+										src="./public/images/more-service.png"></a>
 							</div>
 							<div class="block-features__content">
 								<div class="block-features__title" style="font-size: 22px;line-height: 40px;">
